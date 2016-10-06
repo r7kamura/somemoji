@@ -24,18 +24,6 @@ gem install somemoji
 
 ## Usage
 
-### Somemoji.emojis
-
-Returns an Array of `Somemoji::Emoji` instances based on our emoji definitions.
-
-```ruby
-require "somemoji"
-
-Somemoji.emojis.class #=> Array
-Somemoji.emojis.length #=> 1794
-Somemoji.emojis.first.class #=> Somemoji::Emoji
-```
-
 ### Somemoji.emoji_collection
 
 Returns a `Somemoji::EmojiCollection` instance based on our emoji definitions.
