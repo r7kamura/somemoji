@@ -36,6 +36,26 @@ Somemoji.emoji_collection.count #=> 1794
 Somemoji.emoji_collection.first.class #=> Somemoji::Emoji
 ```
 
+### Somemoji.emoji_one_emoji_collection
+
+Returns a `Somemoji::EmojiCollection` instance for [EmojiOne](http://emojione.com/).
+
+```ruby
+require "somemoji"
+
+Somemoji.emoji_one_emoji_collection.count #=> 1794
+```
+
+### Somemoji.twemoji_emoji_collection
+
+Returns a `Somemoji::EmojiCollection` instance for [Twemoji](http://twitter.github.io/twemoji/).
+
+```ruby
+require "somemoji"
+
+Somemoji.twemoji_emoji_collection.count #=> 1626
+```
+
 ### Somemoji::EmojiCollection#find_by_character(character)
 
 Finds a `Somemoji::Emoji` instance from an emoji character (unicode grapheme cluster).

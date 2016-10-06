@@ -12,10 +12,33 @@ module Somemoji
     def emoji_collection
       @emoji_collection ||= ::Somemoji::EmojiCollection.new(emojis)
     end
+    alias_method :emoji_one_emoji_collection, :emoji_collection
 
     # @return [String]
     def emoji_definitions_directory_path
       ::File.expand_path("../../data/emoji_definitions", __FILE__)
+    end
+
+    # @return [Somemoji::EmojiCollection]
+    def twemoji_emoji_collection
+      @twemoji_emoji_collection ||= ::Somemoji::EmojiCollection.new(twemoji_emojis)
+    end
+
+    # @return [Array<Twemoji::Emoji>]
+    def twemoji_emojis
+      twemoji_supported_characters.map do |character|
+        emoji_collection.find_by_character(character)
+      end.compact
+    end
+
+    # @return [Array<String>]
+    def twemoji_supported_characters
+      ::JSON.parse(::File.read(twemoji_supported_characters_path))
+    end
+
+    # @return [String]
+    def twemoji_supported_characters_path
+      ::File.expand_path("../../data/twemoji_supported_characters.json", __FILE__)
     end
 
     private
