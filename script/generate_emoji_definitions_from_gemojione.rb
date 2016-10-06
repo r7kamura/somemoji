@@ -2,7 +2,7 @@ require "fileutils"
 require "json"
 require "somemoji"
 
-FileUtils.mkdir_p("data")
+FileUtils.mkdir_p(Somemoji.emoji_definitions_directory_path)
 specification = Gem::Specification.find_by_name("gemojione")
 json = File.read("#{specification.gem_dir}/config/index.json")
 index = JSON.parse(json)
