@@ -43,7 +43,7 @@ Somemoji.emoji_collection.first.class #=> Somemoji::Emoji
 
 ### Somemoji.emoji_one_emoji_collection
 
-Returns a `Somemoji::EmojiCollection` instance for [EmojiOne](http://emojione.com/).
+Returns a `Somemoji::EmojiCollection` instance for EmojiOne.
 
 ```ruby
 require "somemoji"
@@ -53,7 +53,7 @@ Somemoji.emoji_one_emoji_collection.count #=> 1794
 
 ### Somemoji.twemoji_emoji_collection
 
-Returns a `Somemoji::EmojiCollection` instance for [Twemoji](http://twitter.github.io/twemoji/).
+Returns a `Somemoji::EmojiCollection` instance for Twemoji.
 
 ```ruby
 require "somemoji"
