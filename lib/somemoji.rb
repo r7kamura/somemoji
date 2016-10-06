@@ -13,6 +13,11 @@ module Somemoji
       @emoji_collection ||= ::Somemoji::EmojiCollection.new(emojis)
     end
 
+    # @return [String]
+    def emoji_definitions_directory_path
+      ::File.expand_path("../../data/emoji_definitions", __FILE__)
+    end
+
     private
 
     # @return [Array<Hash>]
@@ -20,11 +25,6 @@ module Somemoji
       emoji_definition_paths.map do |emoji_definition_path|
         ::JSON.parse(::File.read(emoji_definition_path))
       end
-    end
-
-    # @return [String]
-    def emoji_definitions_directory_path
-      ::File.expand_path("../../data/emoji_definitions", __FILE__)
     end
 
     # @return [Array<String>]
