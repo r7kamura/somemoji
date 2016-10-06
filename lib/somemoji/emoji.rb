@@ -44,16 +44,20 @@ module Somemoji
       @name = name
     end
 
-    # @return [Array<Integer>]
-    def code_points_in_decimal
-      code_points.map do |code_point|
-        code_point.to_i(16)
+    # @return [Array<String>]
+    def alternate_characters
+      code_points_alternates.map do |code_points_alternate|
+        code_points_alternate.map do |code_point|
+          code_point.to_i(16)
+        end.pack("U*")
       end
     end
 
     # @return [String]
-    def to_s
-      code_points_in_decimal.pack("U*")
+    def character
+      code_points.map do |code_point|
+        code_point.to_i(16)
+      end.pack("U*")
     end
   end
 end

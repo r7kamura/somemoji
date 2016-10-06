@@ -48,6 +48,17 @@ Somemoji.emoji_collection.count #=> 1794
 Somemoji.emoji_collection.first.class #=> Somemoji::Emoji
 ```
 
+### Somemoji::EmojiCollection#find_by_character(character)
+
+Finds a `Somemoji::Emoji` instance from an emoji character (unicode grapheme cluster).
+
+```ruby
+require "somemoji"
+
+Somemoji.emoji_collection.find_by_character("👍").class #=> Somemoji::Emoji
+Somemoji.emoji_collection.find_by_character("👎").class #=> Somemoji::Emoji
+```
+
 ### Somemoji::EmojiCollection#find_by_code(code)
 
 Finds a `Somemoji::Emoji` instance from an emoji code.
@@ -95,15 +106,15 @@ emoji = Somemoji::Emoji.new(
   ],
   name: "hundred points symbol"
 )
-emoji.to_s #=> "💯"
+emoji.character #=> "💯"
 ```
 
-### Somemoji::Emoji#to_s
+### Somemoji::Emoji#character
 
 Returns a String representation of an emoji if it has code points.
 
 ```ruby
 require "somemoji"
 
-Somemoji.emojis.first.to_s #=> "💯"
+Somemoji.emojis.first.character #=> "💯"
 ```

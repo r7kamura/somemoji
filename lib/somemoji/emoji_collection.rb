@@ -12,9 +12,24 @@ module Somemoji
       @emojis.each(&block)
     end
 
+    # @param character [String] e.g. `"👍"`
+    def find_by_character(character)
+      index_by_character[character]
+    end
+
     # @param code [String] e.g. `"thumbsup"`
     def find_by_code(code)
       index_by_code[code]
+    end
+
+    # @return [Hash{String => Somemoji::Emoji}]
+    def index_by_character
+      @index_by_character ||= @emojis.each_with_object({}) do |emoji, hash|
+        hash[emoji.character] = emoji
+        emoji.alternate_characters.each do |alternate_character|
+          hash[alternate_character] = emoji
+        end
+      end
     end
 
     # @return [Hash{String => Somemoji::Emoji}]
