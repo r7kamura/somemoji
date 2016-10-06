@@ -43,16 +43,16 @@ module Somemoji
 
     private
 
+    # @return [Array<String>]
+    def emoji_definition_paths
+      ::Dir.glob("#{emoji_definitions_directory_path}/*.json").sort
+    end
+
     # @return [Array<Hash>]
     def emoji_definitions
       emoji_definition_paths.map do |emoji_definition_path|
         ::JSON.parse(::File.read(emoji_definition_path))
       end
-    end
-
-    # @return [Array<String>]
-    def emoji_definition_paths
-      ::Dir.glob("#{emoji_definitions_directory_path}/*.json").sort
     end
 
     # @return [Array<Somemoji::Emoji>]
