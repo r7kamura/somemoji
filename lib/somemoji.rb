@@ -1,4 +1,7 @@
 require "json"
+require "somemoji/downloaders/base_downloader"
+require "somemoji/downloaders/emoji_one_downloader"
+require "somemoji/downloaders/twemoji_downloader"
 require "somemoji/emoji_collection"
 require "somemoji/emoji"
 require "somemoji/version"
