@@ -3,6 +3,28 @@ RSpec.describe Somemoji::EmojiCollection do
     ::Somemoji.emoji_collection
   end
 
+  describe "#+" do
+    subject do
+      emoji_collection + another_emoji_collection
+    end
+
+    let(:another_emoji_collection) do
+      described_class.new([custom_emoji])
+    end
+
+    let(:custom_emoji) do
+      ::Somemoji::Emoji.new(code: custom_emoji_code)
+    end
+
+    let(:custom_emoji_code) do
+      "custom_emoji_example"
+    end
+
+    it "returns a compound Somemoji::EmojiCollection" do
+      expect(subject.find_by_code(custom_emoji_code)).to eq custom_emoji
+    end
+  end
+
   describe "#find_by_character" do
     subject do
       emoji_collection.find_by_character(character)

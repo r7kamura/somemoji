@@ -59,6 +59,24 @@ Somemoji.emoji_collection.find_by_code("+1").class #=> Somemoji::Emoji
 Somemoji.emoji_collection.find_by_code("undefined_code") #=> nil
 ```
 
+### Somemoji::EmojiCollection#+(emoji_collection)
+
+Compounds two `Somemoji::EmojiCollection` into one `Somemoji::EmojiCollection`.
+
+```ruby
+require "somemoji"
+
+custom_emoji_collection = Somemoji.emoji_collection + Somemoji::EmojiCollection.new(
+  [
+    Somemoji::Emoji.new(code: "foo"),
+    Somemoji::Emoji.new(code: "bar"),
+  ]
+)
+custom_emoji_collection.find_by_code("foo").class #=> Somemoji::Emoji
+custom_emoji_collection.find_by_code("bar").class #=> Somemoji::Emoji
+custom_emoji_collection.find_by_code("100").class #=> Somemoji::Emoji
+```
+
 ### Somemoji::Emoji.new
 
 Create a new `Somemoji::Emoji` instance from emoji definition data.
