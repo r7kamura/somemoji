@@ -2,6 +2,11 @@
 
 A grand unified emoji mapper for some emoji providers.
 
+## Supportted emoji providers
+
+- [EmojiOne](http://emojione.com/)
+- [Twemoji](http://twitter.github.io/twemoji/)
+
 ## Installation
 
 Add this line to your application's Gemfile:
