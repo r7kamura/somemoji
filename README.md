@@ -2,7 +2,7 @@
 
 A grand unified emoji mapper for some emoji providers.
 
-## Supportted emoji providers
+## Supported emoji providers
 
 - [EmojiOne](http://emojione.com/)
 - [Twemoji](http://twitter.github.io/twemoji/)
