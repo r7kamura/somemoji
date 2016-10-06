@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "travel",
+  "code": "church",
+  "code_points": [
+    "26EA"
+  ],
   "code_points_alternates": [
     [
       "26EA",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "26EA"
-  ],
-  "code": "church",
   "keywords": [
     "building",
     "christ",

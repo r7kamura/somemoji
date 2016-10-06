@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "mailbox_with_no_mail",
   "code_points": [
     "1F4ED"
   ],
-  "code": "mailbox_with_no_mail",
+  "code_points_alternates": [],
   "keywords": [
     "email",
     "inbox",

@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "hearts",
+  "code_points": [
+    "2665"
+  ],
   "code_points_alternates": [
     [
       "2665",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "2665"
-  ],
-  "code": "hearts",
   "keywords": [
     "cards",
     "game",

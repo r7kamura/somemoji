@@ -4,11 +4,11 @@
   ],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "pause_button",
   "code_points": [
     "23F8"
   ],
-  "code": "pause_button",
+  "code_points_alternates": [],
   "keywords": [
     "pause",
     "sound",

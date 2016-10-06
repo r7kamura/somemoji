@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "no_entry",
+  "code_points": [
+    "26D4"
+  ],
   "code_points_alternates": [
     [
       "26D4",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "26D4"
-  ],
-  "code": "no_entry",
   "keywords": [
     "bad",
     "circle",

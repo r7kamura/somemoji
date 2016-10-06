@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "bar_chart",
   "code_points": [
     "1F4CA"
   ],
-  "code": "bar_chart",
+  "code_points_alternates": [],
   "keywords": [
     "graph",
     "office",

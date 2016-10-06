@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "compression",
   "code_points": [
     "1F5DC"
   ],
-  "code": "compression",
+  "code_points_alternates": [],
   "keywords": [
     "reduce"
   ],

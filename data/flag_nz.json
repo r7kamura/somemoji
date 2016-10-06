@@ -4,12 +4,12 @@
   ],
   "ascii_arts": [],
   "category": "flags",
-  "code_points_alternates": [],
+  "code": "flag_nz",
   "code_points": [
     "1F1F3",
     "1F1FF"
   ],
-  "code": "flag_nz",
+  "code_points_alternates": [],
   "keywords": [
     "aotearoa",
     "country",

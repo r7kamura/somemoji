@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "closed_lock_with_key",
   "code_points": [
     "1F510"
   ],
-  "code": "closed_lock_with_key",
+  "code_points_alternates": [],
   "keywords": [
     "lock",
     "object",

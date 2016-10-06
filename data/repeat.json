@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "repeat",
   "code_points": [
     "1F501"
   ],
-  "code": "repeat",
+  "code_points_alternates": [],
   "keywords": [
     "arrow",
     "loop",

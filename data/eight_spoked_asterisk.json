@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "eight_spoked_asterisk",
+  "code_points": [
+    "2733"
+  ],
   "code_points_alternates": [
     [
       "2733",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "2733"
-  ],
-  "code": "eight_spoked_asterisk",
   "keywords": [
     "green-square",
     "sparkle",

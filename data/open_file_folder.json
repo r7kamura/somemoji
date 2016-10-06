@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "open_file_folder",
   "code_points": [
     "1F4C2"
   ],
-  "code": "open_file_folder",
+  "code_points_alternates": [],
   "keywords": [
     "documents",
     "load",

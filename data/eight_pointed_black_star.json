@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "eight_pointed_black_star",
+  "code_points": [
+    "2734"
+  ],
   "code_points_alternates": [
     [
       "2734",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "2734"
-  ],
-  "code": "eight_pointed_black_star",
   "keywords": [
     "symbol"
   ],

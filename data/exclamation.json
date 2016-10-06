@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "exclamation",
+  "code_points": [
+    "2757"
+  ],
   "code_points_alternates": [
     [
       "2757",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "2757"
-  ],
-  "code": "exclamation",
   "keywords": [
     "punctuation",
     "surprise",

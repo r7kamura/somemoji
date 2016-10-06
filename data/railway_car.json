@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "travel",
-  "code_points_alternates": [],
+  "code": "railway_car",
   "code_points": [
     "1F683"
   ],
-  "code": "railway_car",
+  "code_points_alternates": [],
   "keywords": [
     "car",
     "coach",

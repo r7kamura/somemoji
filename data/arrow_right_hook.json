@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "arrow_right_hook",
+  "code_points": [
+    "21AA"
+  ],
   "code_points_alternates": [
     [
       "21AA",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "21AA"
-  ],
-  "code": "arrow_right_hook",
   "keywords": [
     "arrow",
     "blue-square",

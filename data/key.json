@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "key",
   "code_points": [
     "1F511"
   ],
-  "code": "key",
+  "code_points_alternates": [],
   "keywords": [
     "door",
     "lock",

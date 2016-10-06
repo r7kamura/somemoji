@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "floppy_disk",
   "code_points": [
     "1F4BE"
   ],
-  "code": "floppy_disk",
+  "code_points_alternates": [],
   "keywords": [
     "computer",
     "disk",

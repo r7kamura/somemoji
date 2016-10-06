@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "bomb",
   "code_points": [
     "1F4A3"
   ],
-  "code": "bomb",
+  "code_points_alternates": [],
   "keywords": [
     "blast",
     "boom",

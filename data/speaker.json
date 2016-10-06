@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "speaker",
   "code_points": [
     "1F508"
   ],
-  "code": "speaker",
+  "code_points_alternates": [],
   "keywords": [
     "alarm",
     "hear",

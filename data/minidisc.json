@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "minidisc",
   "code_points": [
     "1F4BD"
   ],
-  "code": "minidisc",
+  "code_points_alternates": [],
   "keywords": [
     "data",
     "disc",

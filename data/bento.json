@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "food",
-  "code_points_alternates": [],
+  "code": "bento",
   "code_points": [
     "1F371"
   ],
-  "code": "bento",
+  "code_points_alternates": [],
   "keywords": [
     "bento",
     "box",

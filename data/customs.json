@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "customs",
   "code_points": [
     "1F6C3"
   ],
-  "code": "customs",
+  "code_points_alternates": [],
   "keywords": [
     "authority",
     "border",

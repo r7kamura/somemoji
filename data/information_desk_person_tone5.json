@@ -2,12 +2,12 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "people",
-  "code_points_alternates": [],
+  "code": "information_desk_person_tone5",
   "code_points": [
     "1F481",
     "1F3FF"
   ],
-  "code": "information_desk_person_tone5",
+  "code_points_alternates": [],
   "keywords": [
     "answer",
     "attitude",

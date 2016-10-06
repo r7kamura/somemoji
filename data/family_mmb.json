@@ -2,6 +2,12 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "people",
+  "code": "family_mmb",
+  "code_points": [
+    "1F468",
+    "1F468",
+    "1F466"
+  ],
   "code_points_alternates": [
     [
       "1F468",
@@ -11,12 +17,6 @@
       "1F466"
     ]
   ],
-  "code_points": [
-    "1F468",
-    "1F468",
-    "1F466"
-  ],
-  "code": "family_mmb",
   "keywords": [
     "baby",
     "boy",

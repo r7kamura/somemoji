@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "pisces",
+  "code_points": [
+    "2653"
+  ],
   "code_points_alternates": [
     [
       "2653",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "2653"
-  ],
-  "code": "pisces",
   "keywords": [
     "astrology",
     "constellation",

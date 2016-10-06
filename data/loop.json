@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "loop",
   "code_points": [
     "27BF"
   ],
-  "code": "loop",
+  "code_points_alternates": [],
   "keywords": [
     "curly",
     "symbol"

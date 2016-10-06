@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "id",
   "code_points": [
     "1F194"
   ],
-  "code": "id",
+  "code_points_alternates": [],
   "keywords": [
     "identification",
     "identity",

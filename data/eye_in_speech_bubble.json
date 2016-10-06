@@ -2,6 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "eye_in_speech_bubble",
+  "code_points": [
+    "1F441",
+    "1F5E8"
+  ],
   "code_points_alternates": [
     [
       "1F441",
@@ -9,11 +14,6 @@
       "1F5E8"
     ]
   ],
-  "code_points": [
-    "1F441",
-    "1F5E8"
-  ],
-  "code": "eye_in_speech_bubble",
   "keywords": [
     "eyes",
     "object",

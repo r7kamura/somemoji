@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "activity",
-  "code_points_alternates": [],
+  "code": "space_invader",
   "code_points": [
     "1F47E"
   ],
-  "code": "space_invader",
+  "code_points_alternates": [],
   "keywords": [
     "alien",
     "arcade",

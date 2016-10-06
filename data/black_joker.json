@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "black_joker",
   "code_points": [
     "1F0CF"
   ],
-  "code": "black_joker",
+  "code_points_alternates": [],
   "keywords": [
     "cards",
     "game",

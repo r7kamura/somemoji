@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "video_camera",
   "code_points": [
     "1F4F9"
   ],
-  "code": "video_camera",
+  "code_points_alternates": [],
   "keywords": [
     "camera",
     "electronics",

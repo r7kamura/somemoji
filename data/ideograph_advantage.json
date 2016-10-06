@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "ideograph_advantage",
   "code_points": [
     "1F250"
   ],
-  "code": "ideograph_advantage",
+  "code_points_alternates": [],
   "keywords": [
     "chinese",
     "get",

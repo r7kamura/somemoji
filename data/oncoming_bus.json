@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "travel",
-  "code_points_alternates": [],
+  "code": "oncoming_bus",
   "code_points": [
     "1F68D"
   ],
-  "code": "oncoming_bus",
+  "code_points_alternates": [],
   "keywords": [
     "bus",
     "city",

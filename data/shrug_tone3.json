@@ -2,12 +2,12 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "people",
-  "code_points_alternates": [],
+  "code": "shrug_tone3",
   "code_points": [
     "1F937",
     "1F3FD"
   ],
-  "code": "shrug_tone3",
+  "code_points_alternates": [],
   "keywords": [],
   "name": "shrug tone 3"
 }

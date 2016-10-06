@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "travel",
+  "code": "fuelpump",
+  "code_points": [
+    "26FD"
+  ],
   "code_points_alternates": [
     [
       "26FD",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "26FD"
-  ],
-  "code": "fuelpump",
   "keywords": [
     "gas pump",
     "gas station",

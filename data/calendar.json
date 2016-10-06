@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "calendar",
   "code_points": [
     "1F4C6"
   ],
-  "code": "calendar",
+  "code_points_alternates": [],
   "keywords": [
     "object",
     "office",

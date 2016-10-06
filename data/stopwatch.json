@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "stopwatch",
   "code_points": [
     "23F1"
   ],
-  "code": "stopwatch",
+  "code_points_alternates": [],
   "keywords": [
     "clock",
     "electronics",

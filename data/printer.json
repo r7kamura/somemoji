@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "printer",
   "code_points": [
     "1F5A8"
   ],
-  "code": "printer",
+  "code_points_alternates": [],
   "keywords": [
     "electronics",
     "hardcopy",

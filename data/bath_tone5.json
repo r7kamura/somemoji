@@ -2,12 +2,12 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "activity",
-  "code_points_alternates": [],
+  "code": "bath_tone5",
   "code_points": [
     "1F6C0",
     "1F3FF"
   ],
-  "code": "bath_tone5",
+  "code_points_alternates": [],
   "keywords": [
     "basin",
     "bathroom",

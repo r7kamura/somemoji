@@ -2,6 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "five",
+  "code_points": [
+    "0035",
+    "20E3"
+  ],
   "code_points_alternates": [
     [
       "0035",
@@ -9,11 +14,6 @@
       "20E3"
     ]
   ],
-  "code_points": [
-    "0035",
-    "20E3"
-  ],
-  "code": "five",
   "keywords": [
     "blue-square",
     "math",

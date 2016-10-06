@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "postal_horn",
   "code_points": [
     "1F4EF"
   ],
-  "code": "postal_horn",
+  "code_points_alternates": [],
   "keywords": [
     "instrument",
     "music",

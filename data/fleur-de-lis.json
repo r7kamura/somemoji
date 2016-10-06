@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "fleur-de-lis",
   "code_points": [
     "269C"
   ],
-  "code": "fleur-de-lis",
+  "code_points_alternates": [],
   "keywords": [
     "object",
     "symbol"

@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "triangular_ruler",
   "code_points": [
     "1F4D0"
   ],
-  "code": "triangular_ruler",
+  "code_points_alternates": [],
   "keywords": [
     "architect",
     "math",

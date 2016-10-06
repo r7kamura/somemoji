@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "movie_camera",
   "code_points": [
     "1F3A5"
   ],
-  "code": "movie_camera",
+  "code_points_alternates": [],
   "keywords": [
     "camcorder",
     "camera",

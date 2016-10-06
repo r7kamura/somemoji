@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "travel",
-  "code_points_alternates": [],
+  "code": "vertical_traffic_light",
   "code_points": [
     "1F6A6"
   ],
-  "code": "vertical_traffic_light",
+  "code_points_alternates": [],
   "keywords": [
     "go",
     "light",

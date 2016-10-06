@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "part_alternation_mark",
+  "code_points": [
+    "303D"
+  ],
   "code_points_alternates": [
     [
       "303D",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "303D"
-  ],
-  "code": "part_alternation_mark",
   "keywords": [
     "cue",
     "graph",

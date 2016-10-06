@@ -4,11 +4,11 @@
   ],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "flag_black",
   "code_points": [
     "1F3F4"
   ],
-  "code": "flag_black",
+  "code_points_alternates": [],
   "keywords": [
     "object",
     "signal",

@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "trackball",
   "code_points": [
     "1F5B2"
   ],
-  "code": "trackball",
+  "code_points_alternates": [],
   "keywords": [
     "device",
     "electronics",

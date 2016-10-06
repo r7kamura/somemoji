@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "label",
   "code_points": [
     "1F3F7"
   ],
-  "code": "label",
+  "code_points_alternates": [],
   "keywords": [
     "object",
     "tag"

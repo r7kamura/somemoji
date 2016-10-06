@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "food",
-  "code_points_alternates": [],
+  "code": "green_apple",
   "code_points": [
     "1F34F"
   ],
-  "code": "green_apple",
+  "code_points_alternates": [],
   "keywords": [
     "apple",
     "core",

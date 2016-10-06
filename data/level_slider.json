@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "level_slider",
   "code_points": [
     "1F39A"
   ],
-  "code": "level_slider",
+  "code_points_alternates": [],
   "keywords": [
     "controls"
   ],

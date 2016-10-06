@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "mobile_phone_off",
   "code_points": [
     "1F4F4"
   ],
-  "code": "mobile_phone_off",
+  "code_points_alternates": [],
   "keywords": [
     "mute",
     "symbol"

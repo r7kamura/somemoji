@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "hourglass_flowing_sand",
   "code_points": [
     "23F3"
   ],
-  "code": "hourglass_flowing_sand",
+  "code_points_alternates": [],
   "keywords": [
     "countdown",
     "object",

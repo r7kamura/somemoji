@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "activity",
-  "code_points_alternates": [],
+  "code": "musical_score",
   "code_points": [
     "1F3BC"
   ],
-  "code": "musical_score",
+  "code_points_alternates": [],
   "keywords": [
     "clef",
     "g-clef",

@@ -4,11 +4,11 @@
   ],
   "ascii_arts": [],
   "category": "food",
-  "code_points_alternates": [],
+  "code": "french_bread",
   "code_points": [
     "1F956"
   ],
-  "code": "french_bread",
+  "code_points_alternates": [],
   "keywords": [],
   "name": "baguette bread"
 }

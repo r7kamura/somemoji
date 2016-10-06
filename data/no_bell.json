@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "no_bell",
   "code_points": [
     "1F515"
   ],
-  "code": "no_bell",
+  "code_points_alternates": [],
   "keywords": [
     "alarm",
     "mute",

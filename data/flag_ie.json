@@ -4,12 +4,12 @@
   ],
   "ascii_arts": [],
   "category": "flags",
-  "code_points_alternates": [],
+  "code": "flag_ie",
   "code_points": [
     "1F1EE",
     "1F1EA"
   ],
-  "code": "flag_ie",
+  "code_points_alternates": [],
   "keywords": [
     "&eacute;ire",
     "country",

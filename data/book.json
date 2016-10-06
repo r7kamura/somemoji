@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "book",
   "code_points": [
     "1F4D6"
   ],
-  "code": "book",
+  "code_points_alternates": [],
   "keywords": [
     "book",
     "library",

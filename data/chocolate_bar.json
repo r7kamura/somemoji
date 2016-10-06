@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "food",
-  "code_points_alternates": [],
+  "code": "chocolate_bar",
   "code_points": [
     "1F36B"
   ],
-  "code": "chocolate_bar",
+  "code_points_alternates": [],
   "keywords": [
     "bar",
     "candy",

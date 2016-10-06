@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "recycle",
+  "code_points": [
+    "267B"
+  ],
   "code_points_alternates": [
     [
       "267B",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "267B"
-  ],
-  "code": "recycle",
   "keywords": [
     "arrow",
     "environment",

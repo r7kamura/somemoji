@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "food",
-  "code_points_alternates": [],
+  "code": "popcorn",
   "code_points": [
     "1F37F"
   ],
-  "code": "popcorn",
+  "code_points_alternates": [],
   "keywords": [
     "food",
     "parties"

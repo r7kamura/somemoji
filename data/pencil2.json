@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
+  "code": "pencil2",
+  "code_points": [
+    "270F"
+  ],
   "code_points_alternates": [
     [
       "270F",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "270F"
-  ],
-  "code": "pencil2",
   "keywords": [
     "object",
     "office",

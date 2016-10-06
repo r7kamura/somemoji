@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "travel",
-  "code_points_alternates": [],
+  "code": "seat",
   "code_points": [
     "1F4BA"
   ],
-  "code": "seat",
+  "code_points_alternates": [],
   "keywords": [
     "object",
     "sit",

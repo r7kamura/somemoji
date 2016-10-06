@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "travel",
-  "code_points_alternates": [],
+  "code": "tram",
   "code_points": [
     "1F68A"
   ],
-  "code": "tram",
+  "code_points_alternates": [],
   "keywords": [
     "train",
     "tram",

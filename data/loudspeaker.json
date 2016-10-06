@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "loudspeaker",
   "code_points": [
     "1F4E2"
   ],
-  "code": "loudspeaker",
+  "code_points_alternates": [],
   "keywords": [
     "alarm",
     "object",

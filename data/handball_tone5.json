@@ -2,12 +2,12 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "activity",
-  "code_points_alternates": [],
+  "code": "handball_tone5",
   "code_points": [
     "1F93E",
     "1F3FF"
   ],
-  "code": "handball_tone5",
+  "code_points_alternates": [],
   "keywords": [],
   "name": "handball tone 5"
 }

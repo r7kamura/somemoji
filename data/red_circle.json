@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "red_circle",
   "code_points": [
     "1F534"
   ],
-  "code": "red_circle",
+  "code_points_alternates": [],
   "keywords": [
     "circle",
     "shape",

@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
+  "code": "black_nib",
+  "code_points": [
+    "2712"
+  ],
   "code_points_alternates": [
     [
       "2712",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "2712"
-  ],
-  "code": "black_nib",
   "keywords": [
     "object",
     "office",

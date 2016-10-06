@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "people",
+  "code": "writing_hand",
+  "code_points": [
+    "270D"
+  ],
   "code_points_alternates": [
     [
       "270D",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "270D"
-  ],
-  "code": "writing_hand",
   "keywords": [
     "body",
     "diversity",

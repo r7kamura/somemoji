@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "food",
-  "code_points_alternates": [],
+  "code": "croissant",
   "code_points": [
     "1F950"
   ],
-  "code": "croissant",
+  "code_points_alternates": [],
   "keywords": [],
   "name": "croissant"
 }

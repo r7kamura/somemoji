@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "baggage_claim",
   "code_points": [
     "1F6C4"
   ],
-  "code": "baggage_claim",
+  "code_points_alternates": [],
   "keywords": [
     "airport",
     "bag",

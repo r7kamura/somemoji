@@ -2,12 +2,12 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "activity",
-  "code_points_alternates": [],
+  "code": "swimmer_tone5",
   "code_points": [
     "1F3CA",
     "1F3FF"
   ],
-  "code": "swimmer_tone5",
+  "code_points_alternates": [],
   "keywords": [
     "backstroke",
     "breaststroke",

@@ -2,12 +2,12 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "activity",
-  "code_points_alternates": [],
+  "code": "horse_racing_tone5",
   "code_points": [
     "1F3C7",
     "1F3FF"
   ],
-  "code": "horse_racing_tone5",
+  "code_points_alternates": [],
   "keywords": [
     "animal",
     "betting",

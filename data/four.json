@@ -2,6 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "four",
+  "code_points": [
+    "0034",
+    "20E3"
+  ],
   "code_points_alternates": [
     [
       "0034",
@@ -9,11 +14,6 @@
       "20E3"
     ]
   ],
-  "code_points": [
-    "0034",
-    "20E3"
-  ],
-  "code": "four",
   "keywords": [
     "4",
     "blue-square",

@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "heavy_division_sign",
   "code_points": [
     "2797"
   ],
-  "code": "heavy_division_sign",
+  "code_points_alternates": [],
   "keywords": [
     "calculation",
     "divide",

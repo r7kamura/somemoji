@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "travel",
+  "code": "anchor",
+  "code_points": [
+    "2693"
+  ],
   "code_points_alternates": [
     [
       "2693",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "2693"
-  ],
-  "code": "anchor",
   "keywords": [
     "anchor",
     "boat",

@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "black_large_square",
+  "code_points": [
+    "2B1B"
+  ],
   "code_points_alternates": [
     [
       "2B1B",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "2B1B"
-  ],
-  "code": "black_large_square",
   "keywords": [
     "shape",
     "shapes",

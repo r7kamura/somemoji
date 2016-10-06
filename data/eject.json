@@ -4,16 +4,16 @@
   ],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "eject",
+  "code_points": [
+    "23CF"
+  ],
   "code_points_alternates": [
     [
       "23CF",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "23CF"
-  ],
-  "code": "eject",
   "keywords": [],
   "name": "eject symbol"
 }

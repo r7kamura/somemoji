@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "sagittarius",
+  "code_points": [
+    "2650"
+  ],
   "code_points_alternates": [
     [
       "2650",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "2650"
-  ],
-  "code": "sagittarius",
   "keywords": [
     "archer",
     "astrology",

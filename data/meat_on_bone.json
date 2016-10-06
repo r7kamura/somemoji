@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "food",
-  "code_points_alternates": [],
+  "code": "meat_on_bone",
   "code_points": [
     "1F356"
   ],
-  "code": "meat_on_bone",
+  "code_points_alternates": [],
   "keywords": [
     "animal",
     "bone",

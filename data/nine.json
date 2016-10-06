@@ -2,6 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "nine",
+  "code_points": [
+    "0039",
+    "20E3"
+  ],
   "code_points_alternates": [
     [
       "0039",
@@ -9,11 +14,6 @@
       "20E3"
     ]
   ],
-  "code_points": [
-    "0039",
-    "20E3"
-  ],
-  "code": "nine",
   "keywords": [
     "9",
     "blue-square",

@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "knife",
   "code_points": [
     "1F52A"
   ],
-  "code": "knife",
+  "code_points_alternates": [],
   "keywords": [
     "object",
     "weapon"

@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "ledger",
   "code_points": [
     "1F4D2"
   ],
-  "code": "ledger",
+  "code_points_alternates": [],
   "keywords": [
     "notes",
     "object",

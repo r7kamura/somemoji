@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "food",
-  "code_points_alternates": [],
+  "code": "hot_pepper",
   "code_points": [
     "1F336"
   ],
-  "code": "hot_pepper",
+  "code_points_alternates": [],
   "keywords": [
     "cayenne",
     "chili",

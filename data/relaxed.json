@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "people",
+  "code": "relaxed",
+  "code_points": [
+    "263A"
+  ],
   "code_points_alternates": [
     [
       "263A",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "263A"
-  ],
-  "code": "relaxed",
   "keywords": [
     "blush",
     "face",

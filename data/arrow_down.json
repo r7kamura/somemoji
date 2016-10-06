@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "arrow_down",
+  "code_points": [
+    "2B07"
+  ],
   "code_points_alternates": [
     [
       "2B07",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "2B07"
-  ],
-  "code": "arrow_down",
   "keywords": [
     "arrow",
     "blue-square",

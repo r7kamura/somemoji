@@ -4,12 +4,12 @@
   ],
   "ascii_arts": [],
   "category": "flags",
-  "code_points_alternates": [],
+  "code": "flag_vc",
   "code_points": [
     "1F1FB",
     "1F1E8"
   ],
-  "code": "flag_vc",
+  "code_points_alternates": [],
   "keywords": [
     "country",
     "flag",

@@ -4,12 +4,12 @@
   ],
   "ascii_arts": [],
   "category": "flags",
-  "code_points_alternates": [],
+  "code": "flag_fj",
   "code_points": [
     "1F1EB",
     "1F1EF"
   ],
-  "code": "flag_fj",
+  "code_points_alternates": [],
   "keywords": [
     "country",
     "fj",

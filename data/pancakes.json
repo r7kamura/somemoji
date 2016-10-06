@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "food",
-  "code_points_alternates": [],
+  "code": "pancakes",
   "code_points": [
     "1F95E"
   ],
-  "code": "pancakes",
+  "code_points_alternates": [],
   "keywords": [],
   "name": "pancakes"
 }

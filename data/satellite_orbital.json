@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "travel",
-  "code_points_alternates": [],
+  "code": "satellite_orbital",
   "code_points": [
     "1F6F0"
   ],
-  "code": "satellite_orbital",
+  "code_points_alternates": [],
   "keywords": [
     "communication",
     "object",

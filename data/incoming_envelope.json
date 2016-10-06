@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "incoming_envelope",
   "code_points": [
     "1F4E8"
   ],
-  "code": "incoming_envelope",
+  "code_points_alternates": [],
   "keywords": [
     "email",
     "inbox",

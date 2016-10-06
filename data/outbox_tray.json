@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "outbox_tray",
   "code_points": [
     "1F4E4"
   ],
-  "code": "outbox_tray",
+  "code_points_alternates": [],
   "keywords": [
     "email",
     "inbox",

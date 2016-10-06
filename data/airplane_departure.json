@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "travel",
-  "code_points_alternates": [],
+  "code": "airplane_departure",
   "code_points": [
     "1F6EB"
   ],
-  "code": "airplane_departure",
+  "code_points_alternates": [],
   "keywords": [
     "airbus",
     "airlines",

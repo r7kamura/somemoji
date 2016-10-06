@@ -4,11 +4,11 @@
   ],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "timer",
   "code_points": [
     "23F2"
   ],
-  "code": "timer",
+  "code_points_alternates": [],
   "keywords": [
     "object",
     "time"

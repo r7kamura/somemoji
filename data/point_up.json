@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "people",
+  "code": "point_up",
+  "code_points": [
+    "261D"
+  ],
   "code_points_alternates": [
     [
       "261D",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "261D"
-  ],
-  "code": "point_up",
   "keywords": [
     "body",
     "direction",

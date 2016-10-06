@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "white_circle",
+  "code_points": [
+    "26AA"
+  ],
   "code_points_alternates": [
     [
       "26AA",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "26AA"
-  ],
-  "code": "white_circle",
   "keywords": [
     "circle",
     "shape",

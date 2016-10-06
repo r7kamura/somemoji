@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "u7121",
+  "code_points": [
+    "1F21A"
+  ],
   "code_points_alternates": [
     [
       "1F21A",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "1F21A"
-  ],
-  "code": "u7121",
   "keywords": [
     "chinese",
     "japanese",

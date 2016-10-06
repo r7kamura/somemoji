@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "people",
-  "code_points_alternates": [],
+  "code": "point_left",
   "code_points": [
     "1F448"
   ],
-  "code": "point_left",
+  "code_points_alternates": [],
   "keywords": [
     "body",
     "direction",

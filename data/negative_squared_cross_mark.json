@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "negative_squared_cross_mark",
   "code_points": [
     "274E"
   ],
-  "code": "negative_squared_cross_mark",
+  "code_points_alternates": [],
   "keywords": [
     "deny",
     "green-square",

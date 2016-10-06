@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "cancer",
+  "code_points": [
+    "264B"
+  ],
   "code_points_alternates": [
     [
       "264B",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "264B"
-  ],
-  "code": "cancer",
   "keywords": [
     "astrology",
     "cancer",

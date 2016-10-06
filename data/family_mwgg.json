@@ -2,6 +2,13 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "people",
+  "code": "family_mwgg",
+  "code_points": [
+    "1F468",
+    "1F469",
+    "1F467",
+    "1F467"
+  ],
   "code_points_alternates": [
     [
       "1F468",
@@ -13,13 +20,6 @@
       "1F467"
     ]
   ],
-  "code_points": [
-    "1F468",
-    "1F469",
-    "1F467",
-    "1F467"
-  ],
-  "code": "family_mwgg",
   "keywords": [
     "baby",
     "children",

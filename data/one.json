@@ -2,6 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "one",
+  "code_points": [
+    "0031",
+    "20E3"
+  ],
   "code_points_alternates": [
     [
       "0031",
@@ -9,11 +14,6 @@
       "20E3"
     ]
   ],
-  "code_points": [
-    "0031",
-    "20E3"
-  ],
-  "code": "one",
   "keywords": [
     "1",
     "blue-square",

@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "electric_plug",
   "code_points": [
     "1F50C"
   ],
-  "code": "electric_plug",
+  "code_points_alternates": [],
   "keywords": [
     "charger",
     "electronics",

@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "nature",
+  "code": "umbrella",
+  "code_points": [
+    "2614"
+  ],
   "code_points_alternates": [
     [
       "2614",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "2614"
-  ],
-  "code": "umbrella",
   "keywords": [
     "cold",
     "rain",

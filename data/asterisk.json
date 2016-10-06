@@ -4,6 +4,11 @@
   ],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "asterisk",
+  "code_points": [
+    "002A",
+    "20E3"
+  ],
   "code_points_alternates": [
     [
       "002A",
@@ -11,11 +16,6 @@
       "20E3"
     ]
   ],
-  "code_points": [
-    "002A",
-    "20E3"
-  ],
-  "code": "asterisk",
   "keywords": [
     "*",
     "star",

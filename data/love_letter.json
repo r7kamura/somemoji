@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "love_letter",
   "code_points": [
     "1F48C"
   ],
-  "code": "love_letter",
+  "code_points_alternates": [],
   "keywords": [
     "affection",
     "email",

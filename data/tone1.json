@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "modifier",
-  "code_points_alternates": [],
+  "code": "tone1",
   "code_points": [
     "1F3FB"
   ],
-  "code": "tone1",
+  "code_points_alternates": [],
   "keywords": [],
   "name": "emoji modifier Fitzpatrick type-1-2"
 }

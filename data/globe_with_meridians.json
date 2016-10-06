@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "globe_with_meridians",
   "code_points": [
     "1F310"
   ],
-  "code": "globe_with_meridians",
+  "code_points_alternates": [],
   "keywords": [
     "earth",
     "globe",

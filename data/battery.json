@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "battery",
   "code_points": [
     "1F50B"
   ],
-  "code": "battery",
+  "code_points_alternates": [],
   "keywords": [
     "energy",
     "object",

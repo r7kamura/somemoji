@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
+  "code": "hourglass",
+  "code_points": [
+    "231B"
+  ],
   "code_points_alternates": [
     [
       "231B",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "231B"
-  ],
-  "code": "hourglass",
   "keywords": [
     "clock",
     "object",

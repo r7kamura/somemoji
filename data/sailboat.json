@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "travel",
+  "code": "sailboat",
+  "code_points": [
+    "26F5"
+  ],
   "code_points_alternates": [
     [
       "26F5",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "26F5"
-  ],
-  "code": "sailboat",
   "keywords": [
     "boat",
     "ship",

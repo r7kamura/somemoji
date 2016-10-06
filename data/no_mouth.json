@@ -12,11 +12,11 @@
     "=x"
   ],
   "category": "people",
-  "code_points_alternates": [],
+  "code": "no_mouth",
   "code_points": [
     "1F636"
   ],
-  "code": "no_mouth",
+  "code_points_alternates": [],
   "keywords": [
     "emotion",
     "face",

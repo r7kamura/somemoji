@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "radio_button",
   "code_points": [
     "1F518"
   ],
-  "code": "radio_button",
+  "code_points_alternates": [],
   "keywords": [
     "circle",
     "input",

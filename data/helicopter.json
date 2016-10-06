@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "travel",
-  "code_points_alternates": [],
+  "code": "helicopter",
   "code_points": [
     "1F681"
   ],
-  "code": "helicopter",
+  "code_points_alternates": [],
   "keywords": [
     "fly",
     "gyro",

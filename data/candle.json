@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "candle",
   "code_points": [
     "1F56F"
   ],
-  "code": "candle",
+  "code_points_alternates": [],
   "keywords": [
     "light",
     "object",

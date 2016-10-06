@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "bangbang",
+  "code_points": [
+    "203C"
+  ],
   "code_points_alternates": [
     [
       "203C",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "203C"
-  ],
-  "code": "bangbang",
   "keywords": [
     "exclamation",
     "punctuation",

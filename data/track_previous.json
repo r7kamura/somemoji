@@ -4,11 +4,11 @@
   ],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "track_previous",
   "code_points": [
     "23EE"
   ],
-  "code": "track_previous",
+  "code_points_alternates": [],
   "keywords": [
     "arrow",
     "previous scene",

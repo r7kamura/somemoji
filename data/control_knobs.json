@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "control_knobs",
   "code_points": [
     "1F39B"
   ],
-  "code": "control_knobs",
+  "code_points_alternates": [],
   "keywords": [
     "dial",
     "time"

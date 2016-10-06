@@ -4,11 +4,11 @@
   ],
   "ascii_arts": [],
   "category": "people",
-  "code_points_alternates": [],
+  "code": "handshake",
   "code_points": [
     "1F91D"
   ],
-  "code": "handshake",
+  "code_points_alternates": [],
   "keywords": [],
   "name": "handshake"
 }

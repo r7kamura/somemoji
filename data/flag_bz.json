@@ -4,12 +4,12 @@
   ],
   "ascii_arts": [],
   "category": "flags",
-  "code_points_alternates": [],
+  "code": "flag_bz",
   "code_points": [
     "1F1E7",
     "1F1FF"
   ],
-  "code": "flag_bz",
+  "code_points_alternates": [],
   "keywords": [
     "bz",
     "country",

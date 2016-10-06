@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "thermometer",
   "code_points": [
     "1F321"
   ],
-  "code": "thermometer",
+  "code_points_alternates": [],
   "keywords": [
     "health",
     "hot",

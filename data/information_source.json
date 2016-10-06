@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "information_source",
+  "code_points": [
+    "2139"
+  ],
   "code_points_alternates": [
     [
       "2139",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "2139"
-  ],
-  "code": "information_source",
   "keywords": [
     "alphabet",
     "blue-square",

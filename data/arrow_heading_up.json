@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "arrow_heading_up",
+  "code_points": [
+    "2934"
+  ],
   "code_points_alternates": [
     [
       "2934",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "2934"
-  ],
-  "code": "arrow_heading_up",
   "keywords": [
     "arrow",
     "blue-square",

@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "arrows_clockwise",
   "code_points": [
     "1F503"
   ],
-  "code": "arrows_clockwise",
+  "code_points_alternates": [],
   "keywords": [
     "arrow",
     "symbol",

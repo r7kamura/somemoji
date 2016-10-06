@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "telescope",
   "code_points": [
     "1F52D"
   ],
-  "code": "telescope",
+  "code_points_alternates": [],
   "keywords": [
     "object",
     "science",

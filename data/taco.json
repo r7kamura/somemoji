@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "food",
-  "code_points_alternates": [],
+  "code": "taco",
   "code_points": [
     "1F32E"
   ],
-  "code": "taco",
+  "code_points_alternates": [],
   "keywords": [
     "food",
     "mexican",

@@ -2,6 +2,13 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "people",
+  "code": "family_wwgb",
+  "code_points": [
+    "1F469",
+    "1F469",
+    "1F467",
+    "1F466"
+  ],
   "code_points_alternates": [
     [
       "1F469",
@@ -13,13 +20,6 @@
       "1F466"
     ]
   ],
-  "code_points": [
-    "1F469",
-    "1F469",
-    "1F467",
-    "1F466"
-  ],
-  "code": "family_wwgb",
   "keywords": [
     "baby",
     "boy",

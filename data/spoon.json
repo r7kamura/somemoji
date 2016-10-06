@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "food",
-  "code_points_alternates": [],
+  "code": "spoon",
   "code_points": [
     "1F944"
   ],
-  "code": "spoon",
+  "code_points_alternates": [],
   "keywords": [],
   "name": "spoon"
 }

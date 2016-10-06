@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "virgo",
+  "code_points": [
+    "264D"
+  ],
   "code_points_alternates": [
     [
       "264D",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "264D"
-  ],
-  "code": "virgo",
   "keywords": [
     "astrology",
     "constellation",

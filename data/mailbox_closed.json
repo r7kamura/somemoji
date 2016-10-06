@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "mailbox_closed",
   "code_points": [
     "1F4EA"
   ],
-  "code": "mailbox_closed",
+  "code_points_alternates": [],
   "keywords": [
     "communication",
     "email",

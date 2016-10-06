@@ -4,16 +4,16 @@
   ],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "speech_left",
+  "code_points": [
+    "1F5E8"
+  ],
   "code_points_alternates": [
     [
       "1F5E8",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "1F5E8"
-  ],
-  "code": "speech_left",
   "keywords": [],
   "name": "left speech bubble"
 }

@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "gemini",
+  "code_points": [
+    "264A"
+  ],
   "code_points_alternates": [
     [
       "264A",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "264A"
-  ],
-  "code": "gemini",
   "keywords": [
     "astrology",
     "constellation",

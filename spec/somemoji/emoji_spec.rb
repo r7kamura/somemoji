@@ -4,11 +4,11 @@ RSpec.describe Somemoji::Emoji do
       aliases: [],
       ascii_arts: [],
       category: "symbols",
-      code_points_alternates: [],
+      code: "100",
       code_points: [
         "1F4AF"
       ],
-      code: "100",
+      code_points_alternates: [],
       keywords: [
         "100",
         "a",

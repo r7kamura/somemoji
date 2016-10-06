@@ -2,12 +2,12 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "people",
-  "code_points_alternates": [],
+  "code": "point_left_tone2",
   "code_points": [
     "1F448",
     "1F3FC"
   ],
-  "code": "point_left_tone2",
+  "code_points_alternates": [],
   "keywords": [
     "direction",
     "finger",

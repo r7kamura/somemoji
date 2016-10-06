@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "u6307",
+  "code_points": [
+    "1F22F"
+  ],
   "code_points_alternates": [
     [
       "1F22F",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "1F22F"
-  ],
-  "code": "u6307",
   "keywords": [
     "chinese",
     "green-square",

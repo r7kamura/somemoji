@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "food",
-  "code_points_alternates": [],
+  "code": "avocado",
   "code_points": [
     "1F951"
   ],
-  "code": "avocado",
+  "code_points_alternates": [],
   "keywords": [],
   "name": "avocado"
 }

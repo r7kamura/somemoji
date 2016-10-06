@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
+  "code": "telephone",
+  "code_points": [
+    "260E"
+  ],
   "code_points_alternates": [
     [
       "260E",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "260E"
-  ],
-  "code": "telephone",
   "keywords": [
     "communication",
     "dial",

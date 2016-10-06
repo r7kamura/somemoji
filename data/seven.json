@@ -2,6 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "seven",
+  "code_points": [
+    "0037",
+    "20E3"
+  ],
   "code_points_alternates": [
     [
       "0037",
@@ -9,11 +14,6 @@
       "20E3"
     ]
   ],
-  "code_points": [
-    "0037",
-    "20E3"
-  ],
-  "code": "seven",
   "keywords": [
     "7",
     "blue-square",

@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "thought_balloon",
   "code_points": [
     "1F4AD"
   ],
-  "code": "thought_balloon",
+  "code_points_alternates": [],
   "keywords": [
     "balloon",
     "bubble",

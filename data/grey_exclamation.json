@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "grey_exclamation",
   "code_points": [
     "2755"
   ],
-  "code": "grey_exclamation",
+  "code_points_alternates": [],
   "keywords": [
     "punctuation",
     "surprise",

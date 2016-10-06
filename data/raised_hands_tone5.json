@@ -2,12 +2,12 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "people",
-  "code_points_alternates": [],
+  "code": "raised_hands_tone5",
   "code_points": [
     "1F64C",
     "1F3FF"
   ],
-  "code": "raised_hands_tone5",
+  "code_points_alternates": [],
   "keywords": [
     "banzai",
     "gesture",

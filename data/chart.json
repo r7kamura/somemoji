@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "chart",
   "code_points": [
     "1F4B9"
   ],
-  "code": "chart",
+  "code_points_alternates": [],
   "keywords": [
     "graph",
     "green-square",

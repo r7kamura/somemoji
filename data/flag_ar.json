@@ -4,12 +4,12 @@
   ],
   "ascii_arts": [],
   "category": "flags",
-  "code_points_alternates": [],
+  "code": "flag_ar",
   "code_points": [
     "1F1E6",
     "1F1F7"
   ],
-  "code": "flag_ar",
+  "code_points_alternates": [],
   "keywords": [
     "ar",
     "country",

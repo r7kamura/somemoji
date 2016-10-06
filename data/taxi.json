@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "travel",
-  "code_points_alternates": [],
+  "code": "taxi",
   "code_points": [
     "1F695"
   ],
-  "code": "taxi",
+  "code_points_alternates": [],
   "keywords": [
     "automobile",
     "car",

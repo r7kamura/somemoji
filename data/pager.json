@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "pager",
   "code_points": [
     "1F4DF"
   ],
-  "code": "pager",
+  "code_points_alternates": [],
   "keywords": [
     "bbcall",
     "electronics",

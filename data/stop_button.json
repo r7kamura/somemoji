@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "stop_button",
   "code_points": [
     "23F9"
   ],
-  "code": "stop_button",
+  "code_points_alternates": [],
   "keywords": [
     "sound",
     "square",

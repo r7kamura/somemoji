@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "record_button",
   "code_points": [
     "23FA"
   ],
-  "code": "record_button",
+  "code_points_alternates": [],
   "keywords": [
     "circle",
     "sound",

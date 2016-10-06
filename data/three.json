@@ -2,6 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "three",
+  "code_points": [
+    "0033",
+    "20E3"
+  ],
   "code_points_alternates": [
     [
       "0033",
@@ -9,11 +14,6 @@
       "20E3"
     ]
   ],
-  "code_points": [
-    "0033",
-    "20E3"
-  ],
-  "code": "three",
   "keywords": [
     "3",
     "blue-square",

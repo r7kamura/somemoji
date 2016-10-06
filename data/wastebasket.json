@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "objects",
-  "code_points_alternates": [],
+  "code": "wastebasket",
   "code_points": [
     "1F5D1"
   ],
-  "code": "wastebasket",
+  "code_points_alternates": [],
   "keywords": [
     "dispose",
     "garbage",

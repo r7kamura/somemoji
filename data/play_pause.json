@@ -2,11 +2,11 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
-  "code_points_alternates": [],
+  "code": "play_pause",
   "code_points": [
     "23EF"
   ],
-  "code": "play_pause",
+  "code_points_alternates": [],
   "keywords": [
     "arrow",
     "pause",

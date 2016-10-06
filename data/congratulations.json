@@ -2,16 +2,16 @@
   "aliases": [],
   "ascii_arts": [],
   "category": "symbols",
+  "code": "congratulations",
+  "code_points": [
+    "3297"
+  ],
   "code_points_alternates": [
     [
       "3297",
       "FE0F"
     ]
   ],
-  "code_points": [
-    "3297"
-  ],
-  "code": "congratulations",
   "keywords": [
     "chinese",
     "japan",

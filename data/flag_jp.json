@@ -4,12 +4,12 @@
   ],
   "ascii_arts": [],
   "category": "flags",
-  "code_points_alternates": [],
+  "code": "flag_jp",
   "code_points": [
     "1F1EF",
     "1F1F5"
   ],
-  "code": "flag_jp",
+  "code_points_alternates": [],
   "keywords": [
     "country",
     "flag",

@@ -4,12 +4,12 @@
   ],
   "ascii_arts": [],
   "category": "flags",
-  "code_points_alternates": [],
+  "code": "flag_hu",
   "code_points": [
     "1F1ED",
     "1F1FA"
   ],
-  "code": "flag_hu",
+  "code_points_alternates": [],
   "keywords": [
     "country",
     "flag",
