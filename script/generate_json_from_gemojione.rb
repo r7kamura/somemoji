@@ -7,7 +7,7 @@ json = File.read("#{specification.gem_dir}/config/index.json")
 index = JSON.parse(json)
 index.each do |shortname, data|
   File.write(
-    "./data/#{shortname}.json",
+    "./data/emoji_definitions/#{shortname}.json",
     JSON.pretty_generate(
       aliases: data["aliases"].sort.map { |string| string[1..-2] },
       ascii_arts: data["aliases_ascii"].sort,

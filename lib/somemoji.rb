@@ -24,7 +24,7 @@ module Somemoji
 
     # @return [String]
     def emoji_definitions_directory_path
-      ::File.expand_path("../../data", __FILE__)
+      ::File.expand_path("../../data/emoji_definitions", __FILE__)
     end
 
     # @return [Array<String>]
