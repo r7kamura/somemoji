@@ -12,15 +12,17 @@ module Somemoji
       @emojis.each(&block)
     end
 
-    # @param character [String] e.g. `"👍"`
+    # @param character [String] e.g. `"\u2934"`
     def find_by_character(character)
       index_by_character[character]
     end
 
-    # @param code [String] e.g. `"thumbsup"`
+    # @param code [String] e.g. `"arrow_heading_up"`
     def find_by_code(code)
       index_by_code[code]
     end
+
+    private
 
     # @return [Hash{String => Somemoji::Emoji}]
     def index_by_character

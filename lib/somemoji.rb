@@ -10,6 +10,8 @@ module Somemoji
       @emoji_collection ||= ::Somemoji::EmojiCollection.new(emojis)
     end
 
+    private
+
     # @return [Array<Hash>]
     def emoji_definitions
       emoji_definition_paths.map do |emoji_definition_path|
