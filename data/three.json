@@ -1,0 +1,27 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [
+    [
+      "0033",
+      "FE0F",
+      "20E3"
+    ]
+  ],
+  "code_points": [
+    "0033",
+    "20E3"
+  ],
+  "code": "three",
+  "keywords": [
+    "3",
+    "blue-square",
+    "math",
+    "number",
+    "numbers",
+    "prime",
+    "symbol"
+  ],
+  "name": "keycap digit three"
+}

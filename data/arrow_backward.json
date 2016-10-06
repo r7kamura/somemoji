@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [
+    [
+      "25C0",
+      "FE0F"
+    ]
+  ],
+  "code_points": [
+    "25C0"
+  ],
+  "code": "arrow_backward",
+  "keywords": [
+    "arrow",
+    "blue-square",
+    "symbol",
+    "triangle"
+  ],
+  "name": "black left-pointing triangle"
+}

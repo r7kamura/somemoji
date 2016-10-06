@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    ":np:"
+  ],
+  "ascii_arts": [],
+  "category": "flags",
+  "code_points_alternates": [],
+  "code_points": [
+    "1F1F3",
+    "1F1F5"
+  ],
+  "code": "flag_np",
+  "keywords": [
+    "country",
+    "flag",
+    "nation",
+    "np"
+  ],
+  "name": "nepal"
+}

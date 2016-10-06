@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [
+    [
+      "26A0",
+      "FE0F"
+    ]
+  ],
+  "code_points": [
+    "26A0"
+  ],
+  "code": "warning",
+  "keywords": [
+    "exclamation",
+    "punctuation",
+    "symbol",
+    "wip"
+  ],
+  "name": "warning sign"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [
+    [
+      "27A1",
+      "FE0F"
+    ]
+  ],
+  "code_points": [
+    "27A1"
+  ],
+  "code": "arrow_right",
+  "keywords": [
+    "arrow",
+    "blue-square",
+    "next",
+    "symbol"
+  ],
+  "name": "black rightwards arrow"
+}

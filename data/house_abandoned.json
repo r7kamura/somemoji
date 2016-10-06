@@ -1,0 +1,30 @@
+{
+  "aliases": [
+    ":derelict_house_building:"
+  ],
+  "ascii_arts": [],
+  "category": "travel",
+  "code_points_alternates": [],
+  "code_points": [
+    "1F3DA"
+  ],
+  "code": "house_abandoned",
+  "keywords": [
+    "abandoned",
+    "boarded",
+    "building",
+    "bungalow",
+    "craftsman",
+    "dwelling",
+    "home",
+    "house",
+    "mansion",
+    "places",
+    "ranch",
+    "residence",
+    "run down",
+    "shoddy",
+    "vacant"
+  ],
+  "name": "derelict house building"
+}

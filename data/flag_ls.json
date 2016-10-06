@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    ":ls:"
+  ],
+  "ascii_arts": [],
+  "category": "flags",
+  "code_points_alternates": [],
+  "code_points": [
+    "1F1F1",
+    "1F1F8"
+  ],
+  "code": "flag_ls",
+  "keywords": [
+    "country",
+    "flag",
+    "ls",
+    "nation"
+  ],
+  "name": "lesotho"
+}

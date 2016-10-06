@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [
+    [
+      "1F004",
+      "FE0F"
+    ]
+  ],
+  "code_points": [
+    "1F004"
+  ],
+  "code": "mahjong",
+  "keywords": [
+    "chinese",
+    "game",
+    "kanji",
+    "object",
+    "symbol"
+  ],
+  "name": "mahjong tile red dragon"
+}

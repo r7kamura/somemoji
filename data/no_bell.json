@@ -1,0 +1,18 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [],
+  "code_points": [
+    "1F515"
+  ],
+  "code": "no_bell",
+  "keywords": [
+    "alarm",
+    "mute",
+    "sound",
+    "symbol",
+    "volume"
+  ],
+  "name": "bell with cancellation stroke"
+}

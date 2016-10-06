@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [
+    [
+      "0023",
+      "FE0F",
+      "20E3"
+    ]
+  ],
+  "code_points": [
+    "0023",
+    "20E3"
+  ],
+  "code": "hash",
+  "keywords": [
+    "number",
+    "symbol"
+  ],
+  "name": "number sign"
+}

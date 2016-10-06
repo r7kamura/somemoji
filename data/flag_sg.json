@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    ":sg:"
+  ],
+  "ascii_arts": [],
+  "category": "flags",
+  "code_points_alternates": [],
+  "code_points": [
+    "1F1F8",
+    "1F1EC"
+  ],
+  "code": "flag_sg",
+  "keywords": [
+    "country",
+    "flag",
+    "nation",
+    "sg"
+  ],
+  "name": "singapore"
+}

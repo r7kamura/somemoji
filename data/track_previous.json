@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    ":previous_track:"
+  ],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [],
+  "code_points": [
+    "23EE"
+  ],
+  "code": "track_previous",
+  "keywords": [
+    "arrow",
+    "previous scene",
+    "previous track",
+    "sound",
+    "symbol"
+  ],
+  "name": "black left-pointing double triangle with vertical bar"
+}

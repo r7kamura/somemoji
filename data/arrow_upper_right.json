@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [
+    [
+      "2197",
+      "FE0F"
+    ]
+  ],
+  "code_points": [
+    "2197"
+  ],
+  "code": "arrow_upper_right",
+  "keywords": [
+    "arrow",
+    "blue-square",
+    "symbol"
+  ],
+  "name": "north east arrow"
+}

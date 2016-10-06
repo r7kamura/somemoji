@@ -1,0 +1,40 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "people",
+  "code_points_alternates": [
+    [
+      "1F468",
+      "200D",
+      "1F469",
+      "200D",
+      "1F467",
+      "200D",
+      "1F467"
+    ]
+  ],
+  "code_points": [
+    "1F468",
+    "1F469",
+    "1F467",
+    "1F467"
+  ],
+  "code": "family_mwgg",
+  "keywords": [
+    "baby",
+    "children",
+    "dad",
+    "family",
+    "father",
+    "girl",
+    "group",
+    "man",
+    "mom",
+    "mother",
+    "parents",
+    "people",
+    "unit",
+    "woman"
+  ],
+  "name": "family (man,woman,girl,girl)"
+}

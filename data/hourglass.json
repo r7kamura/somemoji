@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "objects",
+  "code_points_alternates": [
+    [
+      "231B",
+      "FE0F"
+    ]
+  ],
+  "code_points": [
+    "231B"
+  ],
+  "code": "hourglass",
+  "keywords": [
+    "clock",
+    "object",
+    "oldschool",
+    "time"
+  ],
+  "name": "hourglass"
+}

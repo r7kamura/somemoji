@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    ":ne:"
+  ],
+  "ascii_arts": [],
+  "category": "flags",
+  "code_points_alternates": [],
+  "code_points": [
+    "1F1F3",
+    "1F1EA"
+  ],
+  "code": "flag_ne",
+  "keywords": [
+    "country",
+    "flag",
+    "nation",
+    "ne"
+  ],
+  "name": "niger"
+}

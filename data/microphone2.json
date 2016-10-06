@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    ":studio_microphone:"
+  ],
+  "ascii_arts": [],
+  "category": "objects",
+  "code_points_alternates": [],
+  "code_points": [
+    "1F399"
+  ],
+  "code": "microphone2",
+  "keywords": [
+    "audio",
+    "electronics",
+    "mic",
+    "object",
+    "recording"
+  ],
+  "name": "studio microphone"
+}

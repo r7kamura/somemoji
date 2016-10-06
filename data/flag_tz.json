@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    ":tz:"
+  ],
+  "ascii_arts": [],
+  "category": "flags",
+  "code_points_alternates": [],
+  "code_points": [
+    "1F1F9",
+    "1F1FF"
+  ],
+  "code": "flag_tz",
+  "keywords": [
+    "country",
+    "flag",
+    "nation",
+    "tz"
+  ],
+  "name": "tanzania"
+}

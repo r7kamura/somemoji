@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "food",
+  "code_points_alternates": [
+    [
+      "2615",
+      "FE0F"
+    ]
+  ],
+  "code_points": [
+    "2615"
+  ],
+  "code": "coffee",
+  "keywords": [
+    "beverage",
+    "cafe",
+    "caffeine",
+    "drink",
+    "espresso",
+    "morning",
+    "steam"
+  ],
+  "name": "hot beverage"
+}

@@ -1,0 +1,24 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [
+    [
+      "1F441",
+      "200D",
+      "1F5E8"
+    ]
+  ],
+  "code_points": [
+    "1F441",
+    "1F5E8"
+  ],
+  "code": "eye_in_speech_bubble",
+  "keywords": [
+    "eyes",
+    "object",
+    "symbol",
+    "talk"
+  ],
+  "name": "eye in speech bubble"
+}

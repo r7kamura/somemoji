@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    ":kp:"
+  ],
+  "ascii_arts": [],
+  "category": "flags",
+  "code_points_alternates": [],
+  "code_points": [
+    "1F1F0",
+    "1F1F5"
+  ],
+  "code": "flag_kp",
+  "keywords": [
+    "country",
+    "flag",
+    "kp",
+    "nation"
+  ],
+  "name": "north korea"
+}

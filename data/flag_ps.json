@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    ":ps:"
+  ],
+  "ascii_arts": [],
+  "category": "flags",
+  "code_points_alternates": [],
+  "code_points": [
+    "1F1F5",
+    "1F1F8"
+  ],
+  "code": "flag_ps",
+  "keywords": [
+    "country",
+    "flag",
+    "nation",
+    "ps"
+  ],
+  "name": "palestinian authority"
+}

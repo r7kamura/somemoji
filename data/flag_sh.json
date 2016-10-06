@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    ":sh:"
+  ],
+  "ascii_arts": [],
+  "category": "flags",
+  "code_points_alternates": [],
+  "code_points": [
+    "1F1F8",
+    "1F1ED"
+  ],
+  "code": "flag_sh",
+  "keywords": [
+    "country",
+    "flag",
+    "nation",
+    "sh"
+  ],
+  "name": "saint helena"
+}

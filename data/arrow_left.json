@@ -1,0 +1,22 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [
+    [
+      "2B05",
+      "FE0F"
+    ]
+  ],
+  "code_points": [
+    "2B05"
+  ],
+  "code": "arrow_left",
+  "keywords": [
+    "arrow",
+    "blue-square",
+    "previous",
+    "symbol"
+  ],
+  "name": "leftwards black arrow"
+}

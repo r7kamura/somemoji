@@ -1,0 +1,32 @@
+{
+  "aliases": [],
+  "ascii_arts": [
+    ":#",
+    ":-#",
+    ":-X",
+    ":-x",
+    ":X",
+    ":x",
+    "=#",
+    "=X",
+    "=x"
+  ],
+  "category": "people",
+  "code_points_alternates": [],
+  "code_points": [
+    "1F636"
+  ],
+  "code": "no_mouth",
+  "keywords": [
+    "emotion",
+    "face",
+    "hellokitty",
+    "mad",
+    "mouth",
+    "neutral",
+    "silent",
+    "smiley",
+    "vapid"
+  ],
+  "name": "face without mouth"
+}

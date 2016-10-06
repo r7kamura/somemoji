@@ -1,0 +1,25 @@
+{
+  "aliases": [
+    ":keycap_asterisk:"
+  ],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [
+    [
+      "002A",
+      "FE0F",
+      "20E3"
+    ]
+  ],
+  "code_points": [
+    "002A",
+    "20E3"
+  ],
+  "code": "asterisk",
+  "keywords": [
+    "*",
+    "star",
+    "symbol"
+  ],
+  "name": "keycap asterisk"
+}

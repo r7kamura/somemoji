@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    ":spiral_calendar_pad:"
+  ],
+  "ascii_arts": [],
+  "category": "objects",
+  "code_points_alternates": [],
+  "code_points": [
+    "1F5D3"
+  ],
+  "code": "calendar_spiral",
+  "keywords": [
+    "date",
+    "day",
+    "object",
+    "office",
+    "schedule"
+  ],
+  "name": "spiral calendar pad"
+}

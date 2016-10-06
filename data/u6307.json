@@ -1,0 +1,23 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [
+    [
+      "1F22F",
+      "FE0F"
+    ]
+  ],
+  "code_points": [
+    "1F22F"
+  ],
+  "code": "u6307",
+  "keywords": [
+    "chinese",
+    "green-square",
+    "kanji",
+    "point",
+    "symbol"
+  ],
+  "name": "squared cjk unified ideograph-6307"
+}

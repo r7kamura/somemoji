@@ -1,0 +1,19 @@
+{
+  "aliases": [
+    ":left_speech_bubble:"
+  ],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [
+    [
+      "1F5E8",
+      "FE0F"
+    ]
+  ],
+  "code_points": [
+    "1F5E8"
+  ],
+  "code": "speech_left",
+  "keywords": [],
+  "name": "left speech bubble"
+}

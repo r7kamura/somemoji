@@ -1,0 +1,23 @@
+{
+  "aliases": [
+    ":film_projector:"
+  ],
+  "ascii_arts": [],
+  "category": "objects",
+  "code_points_alternates": [],
+  "code_points": [
+    "1F4FD"
+  ],
+  "code": "projector",
+  "keywords": [
+    "16mm",
+    "8mm",
+    "camera",
+    "motion",
+    "movie",
+    "object",
+    "picture",
+    "video"
+  ],
+  "name": "film projector"
+}

@@ -1,0 +1,25 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "objects",
+  "code_points_alternates": [
+    [
+      "2709",
+      "FE0F"
+    ]
+  ],
+  "code_points": [
+    "2709"
+  ],
+  "code": "envelope",
+  "keywords": [
+    "communication",
+    "letter",
+    "mail",
+    "object",
+    "office",
+    "postal",
+    "write"
+  ],
+  "name": "envelope"
+}

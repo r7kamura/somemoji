@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    ":next_track:"
+  ],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [],
+  "code_points": [
+    "23ED"
+  ],
+  "code": "track_next",
+  "keywords": [
+    "arrow",
+    "next scene",
+    "next track",
+    "sound",
+    "symbol"
+  ],
+  "name": "black right-pointing double triangle with vertical bar"
+}

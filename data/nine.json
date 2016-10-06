@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [
+    [
+      "0039",
+      "FE0F",
+      "20E3"
+    ]
+  ],
+  "code_points": [
+    "0039",
+    "20E3"
+  ],
+  "code": "nine",
+  "keywords": [
+    "9",
+    "blue-square",
+    "math",
+    "number",
+    "numbers",
+    "symbol"
+  ],
+  "name": "keycap digit nine"
+}

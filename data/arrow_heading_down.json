@@ -1,0 +1,21 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [
+    [
+      "2935",
+      "FE0F"
+    ]
+  ],
+  "code_points": [
+    "2935"
+  ],
+  "code": "arrow_heading_down",
+  "keywords": [
+    "arrow",
+    "blue-square",
+    "symbol"
+  ],
+  "name": "arrow pointing rightwards then curving downwards"
+}

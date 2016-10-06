@@ -1,0 +1,18 @@
+{
+  "aliases": [
+    ":cp:"
+  ],
+  "ascii_arts": [],
+  "category": "flags",
+  "code_points_alternates": [],
+  "code_points": [
+    "1F1E8",
+    "1F1F5"
+  ],
+  "code": "flag_cp",
+  "keywords": [
+    "country",
+    "flag"
+  ],
+  "name": "clipperton island"
+}

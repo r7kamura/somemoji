@@ -1,0 +1,17 @@
+{
+  "aliases": [
+    ":timer_clock:"
+  ],
+  "ascii_arts": [],
+  "category": "objects",
+  "code_points_alternates": [],
+  "code_points": [
+    "23F2"
+  ],
+  "code": "timer",
+  "keywords": [
+    "object",
+    "time"
+  ],
+  "name": "timer clock"
+}

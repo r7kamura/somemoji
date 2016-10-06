@@ -1,0 +1,26 @@
+{
+  "aliases": [],
+  "ascii_arts": [],
+  "category": "symbols",
+  "code_points_alternates": [
+    [
+      "0031",
+      "FE0F",
+      "20E3"
+    ]
+  ],
+  "code_points": [
+    "0031",
+    "20E3"
+  ],
+  "code": "one",
+  "keywords": [
+    "1",
+    "blue-square",
+    "math",
+    "number",
+    "numbers",
+    "symbol"
+  ],
+  "name": "keycap digit one"
+}

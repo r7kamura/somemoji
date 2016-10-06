@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    ":old_key:"
+  ],
+  "ascii_arts": [],
+  "category": "objects",
+  "code_points_alternates": [],
+  "code_points": [
+    "1F5DD"
+  ],
+  "code": "key2",
+  "keywords": [
+    "door",
+    "lock",
+    "object",
+    "password",
+    "skeleton"
+  ],
+  "name": "old key"
+}
