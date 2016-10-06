@@ -1,6 +1,6 @@
 {
   "aliases": [
-    ":ls:"
+    "ls"
   ],
   "ascii_arts": [],
   "category": "flags",
