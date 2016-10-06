@@ -1,9 +1,15 @@
 require "json"
+require "somemoji/emoji_collection"
 require "somemoji/emoji"
 require "somemoji/version"
 
 module Somemoji
   class << self
+    # @return [Somemoji::EmojiCollection]
+    def emoji_collection
+      @emoji_collection ||= ::Somemoji::EmojiCollection.new(emojis)
+    end
+
     # @return [Array<Hash>]
     def emoji_definitions
       emoji_definition_paths.map do |emoji_definition_path|
@@ -23,7 +29,7 @@ module Somemoji
 
     # @return [Array<Somemoji::Emoji>]
     def emojis
-      @emojis ||= emoji_definitions.map do |hash|
+      emoji_definitions.map do |hash|
         ::Somemoji::Emoji.new(
           aliases: hash["aliases"],
           ascii_arts: hash["ascii_arts"],

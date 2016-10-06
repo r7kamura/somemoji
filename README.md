@@ -26,7 +26,7 @@ gem install somemoji
 
 ### Somemoji.emojis
 
-Returns an Array of `Somemoji::Emoji` instances based on our default dictionary.
+Returns an Array of `Somemoji::Emoji` instances based on our emoji definitions.
 
 ```ruby
 require "somemoji"
@@ -34,6 +34,30 @@ require "somemoji"
 Somemoji.emojis.class #=> Array
 Somemoji.emojis.length #=> 1794
 Somemoji.emojis.first.class #=> Somemoji::Emoji
+```
+
+### Somemoji.emoji_collection
+
+Returns a `Somemoji::EmojiCollection` instance based on our emoji definitions.
+
+```ruby
+require "somemoji"
+
+Somemoji.emoji_collection.class #=> Somemoji::EmojiCollection
+Somemoji.emoji_collection.count #=> 1794
+Somemoji.emoji_collection.first.class #=> Somemoji::Emoji
+```
+
+### Somemoji::EmojiCollection#find_by_code(code)
+
+Finds a `Somemoji::Emoji` instance from an emoji code.
+
+```ruby
+require "somemoji"
+
+Somemoji.emoji_collection.find_by_code("thumbsup").class #=> Somemoji::Emoji
+Somemoji.emoji_collection.find_by_code("+1").class #=> Somemoji::Emoji
+Somemoji.emoji_collection.find_by_code("undefined_code") #=> nil
 ```
 
 ### Somemoji::Emoji.new
