@@ -16,6 +16,26 @@ module Somemoji
       self.class.new(emojis + emoji_collection.emojis)
     end
 
+    # @return [Regexp]
+    def character_pattern
+      @character_pattern ||= ::Regexp.union(characters)
+    end
+
+    # @return [Array<String>]
+    def characters
+      index_by_character.keys
+    end
+
+    # @return [Regexp]
+    def code_pattern
+      @code_pattern ||= /:(#{::Regexp.union(codes)}):/
+    end
+
+    # @return [Array<String>]
+    def codes
+      index_by_code.keys
+    end
+
     # @note Implementation for Enumerable
     def each(&block)
       emojis.each(&block)
@@ -29,6 +49,22 @@ module Somemoji
     # @param code [String] e.g. `"arrow_heading_up"`
     def find_by_code(code)
       index_by_code[code]
+    end
+
+    # @param string [String]
+    # @return [String]
+    def replace_character(string, &block)
+      string.gsub(character_pattern) do |character|
+        block.call(find_by_character(character))
+      end
+    end
+
+    # @param string [String]
+    # @return [String]
+    def replace_code(string, &block)
+      string.gsub(code_pattern) do
+        block.call(find_by_code(::Regexp.last_match(1)))
+      end
     end
 
     private

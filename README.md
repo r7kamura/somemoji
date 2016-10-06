@@ -77,6 +77,32 @@ custom_emoji_collection.find_by_code("bar").class #=> Somemoji::Emoji
 custom_emoji_collection.find_by_code("100").class #=> Somemoji::Emoji
 ```
 
+### Somemoji::EmojiCollection#replace_character(string, &block)
+
+Replace emoji characters in a given string with a given block.
+
+```ruby
+require "somemoji"
+
+Somemoji.emoji_collection.replace_code("I ❤ Emoji") do |emoji|
+  %(<img alt="#{emoji.character}" class="emoji" src="/assets/emoji/#{emoji.code_points.join('-').downcase}.png">)
+end
+#=> 'I <img alt="❤" class="emoji" src="/assets/emoji/2764.png"> Emoji'
+```
+
+### Somemoji::EmojiCollection#replace_code(string, &block)
+
+Replace emoji codes in a given string with a given block.
+
+```ruby
+require "somemoji"
+
+Somemoji.emoji_collection.replace_code("I :heart: Emoji") do |emoji|
+  %(<img alt="#{emoji.character}" class="emoji" src="/assets/emoji/#{emoji.code_points.join('-').downcase}.png">)
+end
+#=> 'I <img alt="❤" class="emoji" src="/assets/emoji/2764.png"> Emoji'
+```
+
 ### Somemoji::Emoji.new
 
 Create a new `Somemoji::Emoji` instance from emoji definition data.
