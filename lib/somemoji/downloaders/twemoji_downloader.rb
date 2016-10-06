@@ -6,13 +6,10 @@ module Somemoji
       private
 
       def directory_name
-        case
-        when @format == "svg"
-          "svg"
-        when [16, 36].include?(@size)
-          "#{@size}x#{@size}"
+        if @format == "svg"
+          "2/svg"
         else
-          "72x72"
+          "2/72x72"
         end
       end
 
