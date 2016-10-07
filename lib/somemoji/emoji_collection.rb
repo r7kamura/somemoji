@@ -48,6 +48,18 @@ module Somemoji
       )
     end
 
+    # @param keyword [Object]
+    # @return [Somemoji::EmojiCollection]
+    def filter_by_keyword(keyword)
+      ::Somemoji::EmojiCollection.new(
+        select do |emoji|
+          emoji.keywords.any? do |emoji_keyword|
+            keyword === emoji_keyword
+          end
+        end
+      )
+    end
+
     # @param character [String] e.g. `"\u2934"`
     def find_by_character(character)
       index_by_character[character]

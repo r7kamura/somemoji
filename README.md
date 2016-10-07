@@ -123,11 +123,20 @@ end
 
 ### Somemoji::EmojiCollection#filter_by_category(category)
 
-Returns a Somemoji::EmojiCollection filtered by a given category.
+Returns a Somemoji::EmojiCollection filtered by a given category pattern.
 
 ```ruby
 Somemoji.emoji_collection.filter_by_category("activity").count #=> 145
 Somemoji.emoji_collection.filter_by_category("people").count #=> 570
+```
+
+### Somemoji::EmojiCollection#filter_by_keyword(keyword)
+
+Returns a Somemoji::EmojiCollection filtered by a given keyword pattern.
+
+```ruby
+Somemoji.emoji_collection.filter_by_keyword("numbers").count #=> 13
+Somemoji.emoji_collection.filter_by_keyword("vehicle").count #=> 31
 ```
 
 ### Somemoji::Emoji.new

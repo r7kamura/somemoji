@@ -36,7 +36,23 @@ RSpec.describe Somemoji::EmojiCollection do
       ).filter_by_category("activity")
     end
 
-    it "returns a Somemoji::EmojiCollection filtered by a given category" do
+    it "returns a Somemoji::EmojiCollection filtered by a given category pattern" do
+      expect(subject.count).to eq 2
+    end
+  end
+
+  describe "#filter_by_keyword" do
+    subject do
+      ::Somemoji::EmojiCollection.new(
+        [
+          ::Somemoji::Emoji.new(code: "code1", keywords: %w(keyword1 keyword2)),
+          ::Somemoji::Emoji.new(code: "code2", keywords: %w(keyword1 keyword2)),
+          ::Somemoji::Emoji.new(code: "code3", keywords: %w(keyword2 keyword3)),
+        ]
+      ).filter_by_keyword("keyword1")
+    end
+
+    it "returns a Somemoji::EmojiCollection filtered by a given keyword pattern" do
       expect(subject.count).to eq 2
     end
   end
