@@ -141,7 +141,7 @@ Somemoji.emoji_collection.filter_by_keyword("vehicle").count #=> 31
 
 ### Somemoji::Emoji.new
 
-Creates a new `Somemoji::Emoji` instance from emoji definition data.
+Creates a new `Somemoji::Emoji` instance from emoji definition data (`code` is required).
 
 ```ruby
 emoji = Somemoji::Emoji.new(
