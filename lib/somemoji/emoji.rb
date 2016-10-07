@@ -9,14 +9,14 @@ module Somemoji
     # @return [String, nil]
     attr_reader :category
 
-    # @return [Array<Array<String>>]
-    attr_reader :code_points_alternates
+    # @return [String, nil]
+    attr_reader :code
 
     # @return [Array<String>, nil]
     attr_reader :code_points
 
-    # @return [String, nil]
-    attr_reader :code
+    # @return [Array<Array<String>>]
+    attr_reader :code_points_alternates
 
     # @return [Array<String>, nil]
     attr_reader :keywords
