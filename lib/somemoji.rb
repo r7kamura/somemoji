@@ -10,7 +10,9 @@ require "somemoji/version"
 
 module Somemoji
   class << self
-    # @return [Somemoji::EmojiCollection]
+    # @return [Somemoji::EmojiCollection] an emoji collection including Apple emojis
+    # @example
+    #   Somemoji.apple_emoji_collection.count #=> 1285
     def apple_emoji_collection
       @apple_emoji_collection ||= ::Somemoji::EmojiCollection.new(apple_emojis)
     end
@@ -20,18 +22,30 @@ module Somemoji
       ::File.expand_path("../../data/apple_supported_characters.json", __FILE__)
     end
 
-    # @return [Somemoji::EmojiCollection]
+    # @return [Somemoji::EmojiCollection] an emoji collection including all emojis
+    # @example
+    #   Somemoji.emoji_collection.class #=> Somemoji::EmojiCollection
+    #   Somemoji.emoji_collection.count #=> 1794
+    #   Somemoji.emoji_collection.first.class #=> Somemoji::Emoji
     def emoji_collection
       @emoji_collection ||= ::Somemoji::EmojiCollection.new(emojis)
     end
-    alias_method :emoji_one_emoji_collection, :emoji_collection
+
+    # @return [Somemoji::EmojiCollection] an emoji collection including EmojiOne emojis
+    # @example
+    #   Somemoji.emoji_one_emoji_collection.count #=> 1794
+    def emoji_one_emoji_collection
+      emoji_collection
+    end
 
     # @return [String]
     def emoji_definitions_directory_path
       ::File.expand_path("../../data/emoji_definitions", __FILE__)
     end
 
-    # @return [Somemoji::EmojiCollection]
+    # @return [Somemoji::EmojiCollection] an emoji collection including Twemoji emojis
+    # @example
+    #   Somemoji.twemoji_emoji_collection.count #=> 1626
     def twemoji_emoji_collection
       @twemoji_emoji_collection ||= ::Somemoji::EmojiCollection.new(twemoji_emojis)
     end

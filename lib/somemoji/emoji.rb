@@ -24,6 +24,44 @@ module Somemoji
     # @return [String, nil]
     attr_reader :name
 
+    # @param aliases [Array<String>, nil]
+    # @param ascii_arts [Array<String>, nil]
+    # @param category [String, nil]
+    # @param code_points_alternates [Array<Array<String>>, nil]
+    # @param code_points [Array<String>, nil]
+    # @param code [String] a unique emoji code (required)
+    # @param keywords [Array<String>, nil]
+    # @param name [String, nil]
+    # @example
+    #   emoji = Somemoji::Emoji.new(
+    #     aliases: [],
+    #     ascii_arts: [],
+    #     category: "symbols",
+    #     code: "100",
+    #     code_points: [
+    #       "1F4AF"
+    #     ],
+    #     code_points_alternates: [],
+    #     keywords: [
+    #       "100",
+    #       "a",
+    #       "exam",
+    #       "numbers",
+    #       "parties",
+    #       "percent",
+    #       "perfect",
+    #       "plus",
+    #       "quiz",
+    #       "school",
+    #       "score",
+    #       "symbol",
+    #       "test",
+    #       "win",
+    #       "wow"
+    #     ],
+    #     name: "hundred points symbol"
+    #   )
+    #   emoji.character #=> "💯"
     def initialize(
       aliases: nil,
       ascii_arts: nil,
@@ -53,7 +91,7 @@ module Somemoji
       end
     end
 
-    # @return [String]
+    # @return [String] a String representation of an emoji (if code points are defined on this emoji)
     def character
       code_points.map do |code_point|
         code_point.to_i(16)
