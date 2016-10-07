@@ -4,7 +4,7 @@ A grand unified emoji mapper for some emoji providers.
 
 ## Supported emoji
 
-- Apple Emoji
+- [Apple Emoji](https://support.apple.com/en-us/HT202332)
 - [EmojiOne](http://emojione.com/)
 - [Twemoji](http://twitter.github.io/twemoji/)
 
