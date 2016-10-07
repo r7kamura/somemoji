@@ -66,18 +66,18 @@ module Somemoji
       aliases: nil,
       ascii_arts: nil,
       category: nil,
-      code_points_alternates: nil,
-      code_points: nil,
       code:,
+      code_points: nil,
+      code_points_alternates: nil,
       keywords: nil,
       name: nil
     )
       @aliases = aliases || []
       @ascii_arts = ascii_arts || []
       @category = category
-      @code_points_alternates = code_points_alternates || []
-      @code_points = code_points
       @code = code
+      @code_points = code_points
+      @code_points_alternates = code_points_alternates || []
       @keywords = keywords || []
       @name = name
     end
