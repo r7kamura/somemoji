@@ -27,3 +27,7 @@ Or install it yourself as:
 ```bash
 gem install somemoji
 ```
+
+## Documentation
+
+See API documentation at http://www.rubydoc.info/github/r7kamura/somemoji.
