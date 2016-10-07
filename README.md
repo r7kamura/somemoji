@@ -2,8 +2,9 @@
 
 A grand unified emoji mapper for some emoji providers.
 
-## Supported emoji providers
+## Supported emoji
 
+- Apple Emoji
 - [EmojiOne](http://emojione.com/)
 - [Twemoji](http://twitter.github.io/twemoji/)
 
@@ -34,11 +35,17 @@ gem install somemoji
 Returns a `Somemoji::EmojiCollection` instance based on our emoji definitions.
 
 ```ruby
-require "somemoji"
-
 Somemoji.emoji_collection.class #=> Somemoji::EmojiCollection
 Somemoji.emoji_collection.count #=> 1794
 Somemoji.emoji_collection.first.class #=> Somemoji::Emoji
+```
+
+### Somemoji.apple_emoji_collection
+
+Returns a `Somemoji::EmojiCollection` instance for Apple.
+
+```ruby
+Somemoji.apple_emoji_collection.count #=> 1285
 ```
 
 ### Somemoji.emoji_one_emoji_collection
@@ -46,8 +53,6 @@ Somemoji.emoji_collection.first.class #=> Somemoji::Emoji
 Returns a `Somemoji::EmojiCollection` instance for EmojiOne.
 
 ```ruby
-require "somemoji"
-
 Somemoji.emoji_one_emoji_collection.count #=> 1794
 ```
 
@@ -56,8 +61,6 @@ Somemoji.emoji_one_emoji_collection.count #=> 1794
 Returns a `Somemoji::EmojiCollection` instance for Twemoji.
 
 ```ruby
-require "somemoji"
-
 Somemoji.twemoji_emoji_collection.count #=> 1626
 ```
 
@@ -66,8 +69,6 @@ Somemoji.twemoji_emoji_collection.count #=> 1626
 Finds a `Somemoji::Emoji` instance from an emoji character (unicode grapheme cluster).
 
 ```ruby
-require "somemoji"
-
 Somemoji.emoji_collection.find_by_character("👍").class #=> Somemoji::Emoji
 Somemoji.emoji_collection.find_by_character("👎").class #=> Somemoji::Emoji
 ```
@@ -77,8 +78,6 @@ Somemoji.emoji_collection.find_by_character("👎").class #=> Somemoji::Emoji
 Finds a `Somemoji::Emoji` instance from an emoji code.
 
 ```ruby
-require "somemoji"
-
 Somemoji.emoji_collection.find_by_code("thumbsup").class #=> Somemoji::Emoji
 Somemoji.emoji_collection.find_by_code("+1").class #=> Somemoji::Emoji
 Somemoji.emoji_collection.find_by_code("undefined_code") #=> nil
@@ -89,8 +88,6 @@ Somemoji.emoji_collection.find_by_code("undefined_code") #=> nil
 Compounds two `Somemoji::EmojiCollection` into one `Somemoji::EmojiCollection`.
 
 ```ruby
-require "somemoji"
-
 custom_emoji_collection = Somemoji.emoji_collection + Somemoji::EmojiCollection.new(
   [
     Somemoji::Emoji.new(code: "foo"),
@@ -107,8 +104,6 @@ custom_emoji_collection.find_by_code("100").class #=> Somemoji::Emoji
 Replaces emoji characters in a given string with a given block.
 
 ```ruby
-require "somemoji"
-
 Somemoji.emoji_collection.replace_code("I ❤ Emoji") do |emoji|
   %(<img alt="#{emoji.character}" class="emoji" src="/assets/emoji/#{emoji.code_points.join('-').downcase}.png">)
 end
@@ -120,8 +115,6 @@ end
 Replaces emoji codes in a given string with a given block.
 
 ```ruby
-require "somemoji"
-
 Somemoji.emoji_collection.replace_code("I :heart: Emoji") do |emoji|
   %(<img alt="#{emoji.character}" class="emoji" src="/assets/emoji/#{emoji.code_points.join('-').downcase}.png">)
 end
@@ -133,8 +126,6 @@ end
 Creates a new `Somemoji::Emoji` instance from emoji definition data.
 
 ```ruby
-require "somemoji"
-
 emoji = Somemoji::Emoji.new(
   aliases: [],
   ascii_arts: [],
@@ -171,7 +162,5 @@ emoji.character #=> "💯"
 Returns a String representation of an emoji if it has code points.
 
 ```ruby
-require "somemoji"
-
 Somemoji.emojis.first.character #=> "💯"
 ```

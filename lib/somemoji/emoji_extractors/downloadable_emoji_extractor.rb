@@ -1,16 +1,17 @@
 require "net/https"
 
 module Somemoji
-  module Downloaders
-    class BaseDownloader
-      # @param directory_path [String]
-      # @param format [String]
-      # @param size [Integer, nil]
-      def initialize(format: nil, directory_path:, size: nil)
-        @directory_path = directory_path
-        @format = format || "png"
-        @size = size
+  module EmojiExtractors
+    class DownloadableEmojiExtractor < BaseEmojiExtractor
+      # @note Implementation for Somemoji::EmojiExtractors::BaseEmojiExtractor
+      def extract
+        make_directory
+        emojis.each do |emoji|
+          download(emoji)
+        end
       end
+
+      private
 
       # @param emoji [Somemoji::Emoji]
       # @return [Boolean]
@@ -26,7 +27,10 @@ module Somemoji
         end
       end
 
-      private
+      # @return [Enumerable]
+      def emojis
+        raise ::NotImplementedError
+      end
 
       # @return [String]
       def extension

@@ -1,6 +1,6 @@
 module Somemoji
-  module Downloaders
-    class EmojiOneDownloader < BaseDownloader
+  module EmojiExtractors
+    class EmojiOneEmojiExtractor < DownloadableEmojiExtractor
       HOST = "raw.githubusercontent.com"
 
       private
@@ -16,11 +16,17 @@ module Somemoji
         end
       end
 
-      # @note Implementation for Somemoji::Downloaders::BaseDownloader
+      # @note Implementation for Somemoji::EmojiExtractors::DownloadableEmojiExtractor
+      def emojis
+        ::Somemoji.emoji_one_emoji_collection.each
+      end
+
+      # @note Implementation for Somemoji::EmojiExtractors::DownloadableEmojiExtractor
       def find_remote_emoji_path(emoji)
         "/Ranks/emojione/v2.2.6/assets/#{directory_name}/#{emoji.code_points.join('-').downcase}.#{extension}"
       end
 
+      # @note Implementation for Somemoji::EmojiExtractors::DownloadableEmojiExtractor
       # @return [String]
       def host
         HOST

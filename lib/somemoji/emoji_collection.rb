@@ -2,9 +2,6 @@ module Somemoji
   class EmojiCollection
     include ::Enumerable
 
-    # @return [Array<Somemoji::Emoji>]
-    attr_reader :emojis
-
     # @param emojis [Array<Somemoji::Emoji>]
     def initialize(emojis = [])
       @emojis = emojis
@@ -13,7 +10,7 @@ module Somemoji
     # @param emoji_collection [Somemoji::EmojiCollection]
     # @return [Somemoji::EmojiCollection]
     def +(emoji_collection)
-      self.class.new(emojis + emoji_collection.emojis)
+      self.class.new(to_a + emoji_collection.to_a)
     end
 
     # @return [Regexp]
@@ -38,7 +35,7 @@ module Somemoji
 
     # @note Implementation for Enumerable
     def each(&block)
-      emojis.each(&block)
+      @emojis.each(&block)
     end
 
     # @param character [String] e.g. `"\u2934"`
@@ -71,7 +68,7 @@ module Somemoji
 
     # @return [Hash{String => Somemoji::Emoji}]
     def index_by_character
-      @index_by_character ||= emojis.each_with_object({}) do |emoji, hash|
+      @index_by_character ||= each_with_object({}) do |emoji, hash|
         hash[emoji.character] = emoji
         emoji.alternate_characters.each do |alternate_character|
           hash[alternate_character] = emoji
@@ -81,7 +78,7 @@ module Somemoji
 
     # @return [Hash{String => Somemoji::Emoji}]
     def index_by_code
-      @index_by_code ||= emojis.each_with_object({}) do |emoji, hash|
+      @index_by_code ||= each_with_object({}) do |emoji, hash|
         hash[emoji.code] = emoji
         emoji.aliases.each do |alias_code|
           hash[alias_code] = emoji
