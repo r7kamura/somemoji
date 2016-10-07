@@ -15,6 +15,8 @@ Gem::Specification.new do |spec|
     f.match(%r{^(test|spec|features)/})
   end
 
+  spec.required_ruby_version = ">= 2.1.0"
+
   spec.require_paths = ["lib"]
 
   spec.add_dependency "gemoji", "3.0.0.rc1"
