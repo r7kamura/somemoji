@@ -74,15 +74,15 @@ module Somemoji
     # @return [String]
     def replace_character(string, &block)
       string.gsub(character_pattern) do |character|
-        block.call(find_by_character(character))
+        block.call(find_by_character(character), character)
       end
     end
 
     # @param string [String]
     # @return [String]
     def replace_code(string, &block)
-      string.gsub(code_pattern) do
-        block.call(find_by_code(::Regexp.last_match(1)))
+      string.gsub(code_pattern) do |matched_string|
+        block.call(find_by_code(::Regexp.last_match(1)), matched_string)
       end
     end
 
