@@ -1,4 +1,4 @@
-# Somemoji
+# Somemoji [![Documentation](http://img.shields.io/badge/docs-rdoc.info-blue.svg)](http://www.rubydoc.info/github/r7kamura/somemoji)
 
 A grand unified emoji mapper for some emoji providers.
 
