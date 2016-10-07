@@ -121,6 +121,15 @@ end
 #=> 'I <img alt="❤" class="emoji" src="/assets/emoji/2764.png"> Emoji'
 ```
 
+### Somemoji::EmojiCollection#filter_by_category(category)
+
+Returns a Somemoji::EmojiCollection filtered by a given category.
+
+```ruby
+Somemoji.emoji_collection.filter_by_category("activity").count #=> 145
+Somemoji.emoji_collection.filter_by_category("people").count #=> 570
+```
+
 ### Somemoji::Emoji.new
 
 Creates a new `Somemoji::Emoji` instance from emoji definition data.

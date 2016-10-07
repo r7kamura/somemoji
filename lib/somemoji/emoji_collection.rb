@@ -38,6 +38,16 @@ module Somemoji
       @emojis.each(&block)
     end
 
+    # @param category [Object]
+    # @return [Somemoji::EmojiCollection]
+    def filter_by_category(category)
+      ::Somemoji::EmojiCollection.new(
+        select do |emoji|
+          category === emoji.category
+        end
+      )
+    end
+
     # @param character [String] e.g. `"\u2934"`
     def find_by_character(character)
       index_by_character[character]
