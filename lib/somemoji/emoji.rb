@@ -91,6 +91,15 @@ module Somemoji
       end
     end
 
+    # @return [String]
+    def base_path
+      if code_points.empty?
+        code
+      else
+        "unicode/#{code_points.join('-')}"
+      end
+    end
+
     # @return [String] a String representation of an emoji (if code points are defined on this emoji)
     def character
       code_points.map do |code_point|

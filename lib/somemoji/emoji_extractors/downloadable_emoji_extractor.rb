@@ -1,3 +1,4 @@
+require "fileutils"
 require "net/https"
 
 module Somemoji
@@ -20,7 +21,8 @@ module Somemoji
         http.use_ssl = true
         response = http.get(find_remote_emoji_path(emoji))
         if response.code == "200"
-          ::File.write("#{@directory_path}/#{emoji.code}.#{extension}", response.body)
+          ::FileUtils.mkdir_p("#{@directory_path}/unicode")
+          ::File.write("#{@directory_path}/#{emoji.base_path}.#{extension}", response.body)
           true
         else
           false
