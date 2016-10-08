@@ -43,6 +43,18 @@ module Somemoji
       ::File.expand_path("../../data/emoji_definitions", __FILE__)
     end
 
+    # @return [Somemoji::EmojiCollection] an emoji collection including Noto emojis
+    # @example
+    #   Somemoji.noto_emoji_collection.count #=> 962
+    def noto_emoji_collection
+      @noto_emoji_collection ||= ::Somemoji::EmojiCollection.new(noto_emojis)
+    end
+
+    # @return [String]
+    def noto_supported_characters_path
+      ::File.expand_path("../../data/noto_supported_characters.json", __FILE__)
+    end
+
     # @return [Somemoji::EmojiCollection] an emoji collection including Twemoji emojis
     # @example
     #   Somemoji.twemoji_emoji_collection.count #=> 1626
@@ -95,6 +107,18 @@ module Somemoji
           name: hash["name"],
         )
       end
+    end
+
+    # @return [Array<Twemoji::Emoji>]
+    def noto_emojis
+      noto_supported_characters.map do |character|
+        emoji_collection.find_by_character(character)
+      end.compact
+    end
+
+    # @return [Array<String>]
+    def noto_supported_characters
+      ::JSON.parse(::File.read(noto_supported_characters_path))
     end
 
     # @return [Array<Twemoji::Emoji>]
