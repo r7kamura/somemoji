@@ -37,7 +37,25 @@ gem install somemoji
 
 See API documentation at http://www.rubydoc.info/github/r7kamura/somemoji.
 
-## Use case
+## Use cases
+
+### Replace emoji codes
+
+```ruby
+Somemoji.emoji_one_emoji_collection.replace_code("I :heart: Emoji") do |emoji|
+  %(<img alt="#{emoji.character}" class="emoji" src="/assets/emoji/#{emoji.base_path}.png">)
+end
+#=> 'I <img alt="❤" class="emoji" src="/assets/emoji/unicode/2764.png"> Emoji'
+```
+
+### Replace emoji characters
+
+```ruby
+Somemoji.noto_emoji_collection.replace_character("I 💗 Emoji") do |emoji|
+  %(<img alt="#{emoji.character}" class="emoji" src="/assets/emoji/#{emoji.base_path}.png">)
+end
+#=> 'I <img alt="💗" class="emoji" src="/assets/emoji/unicode/1f497.png"> Emoji'
+```
 
 ### HTML::Pipeline integration
 
