@@ -3,12 +3,12 @@ require "fileutils"
 module Somemoji
   module EmojiExtractors
     class BaseEmojiExtractor
-      # @param directory_path [String]
+      # @param destination [String]
       # @param format [String]
       # @param silence [Boolean]
       # @param size [Integer, nil]
-      def initialize(format: nil, directory_path:, silence: nil, size: nil)
-        @directory_path = directory_path
+      def initialize(format: nil, destination:, silence: nil, size: nil)
+        @destination = destination
         @format = format || "png"
         @silence = silence || false
         @size = size
@@ -21,7 +21,7 @@ module Somemoji
       private
 
       def make_directory
-        ::FileUtils.mkdir_p(@directory_path)
+        ::FileUtils.mkdir_p(@destination)
       end
 
       def silence?

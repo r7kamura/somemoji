@@ -9,7 +9,7 @@ module Somemoji
 
       # @note Implementation for Somemoji::EmojiExtractors::BaseEmojiExtractor
       def extract
-        ::Emoji::Extractor.new(IMAGE_SIZE, @directory_path).extract!
+        ::Emoji::Extractor.new(IMAGE_SIZE, @destination).extract!
       end
     end
   end

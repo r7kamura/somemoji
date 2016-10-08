@@ -33,9 +33,25 @@ Or install it yourself as:
 gem install somemoji
 ```
 
-## Documentation
+## Command line tool
 
-See API documentation at http://www.rubydoc.info/github/r7kamura/somemoji.
+`somemoji` executable is bundled to extract images from each emoji provider.
+
+```
+$ somemoji --help
+Usage: somemoji extract [options]
+    -p, --provider     (required) apple, emoji_one, noto, or twemoji
+    -d, --destination  (required) directory path to locate extracted image files
+    -f, --format       png or svg (default: png)
+    -s, --size         Some providers have different size image files
+    -h, --help         Display this help message
+```
+
+To extract emojis from Twemoji to ./images/emoji directory, execute:
+
+```bash
+somemoji extract --provider=twemoji --destination=./images/emoji
+```
 
 ## Use cases
 
@@ -107,3 +123,7 @@ class EmojiFilter < ::HTML::Pipeline::Filter
   end
 end
 ```
+
+## Documentation
+
+See API documentation at http://www.rubydoc.info/github/r7kamura/somemoji.

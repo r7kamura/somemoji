@@ -1,3 +1,7 @@
+## v0.4.0
+
+- Add `somemoji` executable to extract emoji images
+
 ## v0.3.2
 
 - Fix bug: nil.map raises error on no code_points emoji :bug:
