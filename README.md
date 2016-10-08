@@ -57,6 +57,23 @@ end
 #=> 'I <img alt="💗" class="emoji" src="/assets/emoji/unicode/1f497.png"> Emoji'
 ```
 
+### Custom emojis
+
+```ruby
+custom_emoji_collection = Somemoji.emoji_one_emoji_collection + Somemoji::EmojiCollection.new(
+  [
+    Somemoji::Emoji.new(code: "foo"),
+    Somemoji::Emoji.new(code: "bar"),
+  ]
+)
+custom_emoji_collection.find_by_code("foo").class #=> Somemoji::Emoji
+custom_emoji_collection.find_by_code("bar").class #=> Somemoji::Emoji
+custom_emoji_collection.find_by_code("100").class #=> Somemoji::Emoji
+custom_emoji_collection.replace_code("I :bar: Emoji") do |emoji|
+  %(<img alt="#{emoji.character || emoji.code}" class="emoji" src="/assets/emoji/#{emoji.base_path}.png">)
+end #=> 'I <img alt="bar" class="emoji" src="/assets/emoji/bar.png"> Emoji'
+```
+
 ### HTML::Pipeline integration
 
 ```ruby
