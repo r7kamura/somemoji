@@ -9,7 +9,9 @@ module Somemoji
         make_directory
         emojis.each do |emoji|
           download(emoji)
+          print emoji.character unless silence?
         end
+        puts unless silence?
       end
 
       private

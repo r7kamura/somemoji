@@ -5,10 +5,12 @@ module Somemoji
     class BaseEmojiExtractor
       # @param directory_path [String]
       # @param format [String]
+      # @param silence [Boolean]
       # @param size [Integer, nil]
-      def initialize(format: nil, directory_path:, size: nil)
+      def initialize(format: nil, directory_path:, silence: nil, size: nil)
         @directory_path = directory_path
         @format = format || "png"
+        @silence = silence || false
         @size = size
       end
 
@@ -20,6 +22,10 @@ module Somemoji
 
       def make_directory
         ::FileUtils.mkdir_p(@directory_path)
+      end
+
+      def silence?
+        !!@silence
       end
     end
   end
