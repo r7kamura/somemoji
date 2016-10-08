@@ -47,7 +47,7 @@ Usage: somemoji extract [options]
     -h, --help         Display this help message
 ```
 
-To extract emojis from Twemoji to ./images/emoji directory, execute:
+e.g. To extract emojis from Twemoji into ./images/emoji directory, execute:
 
 ```bash
 somemoji extract --provider=twemoji --destination=./images/emoji
