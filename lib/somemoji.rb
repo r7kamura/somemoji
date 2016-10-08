@@ -5,6 +5,7 @@ require "somemoji/emoji_extractors/base_emoji_extractor"
 require "somemoji/emoji_extractors/apple_emoji_extractor"
 require "somemoji/emoji_extractors/downloadable_emoji_extractor"
 require "somemoji/emoji_extractors/emoji_one_emoji_extractor"
+require "somemoji/emoji_extractors/noto_emoji_extractor"
 require "somemoji/emoji_extractors/twemoji_emoji_extractor"
 require "somemoji/version"
 
