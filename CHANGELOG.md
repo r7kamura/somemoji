@@ -1,3 +1,8 @@
+## v0.3.2
+
+- Fix bug: nil.map raises error on no code_points emoji :bug:
+- Change Somemoji::Emoji#character so that it may return nil
+
 ## v0.3.1
 
 - Add Noto emoji extractor
