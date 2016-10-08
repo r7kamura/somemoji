@@ -1,3 +1,7 @@
+## v0.3.0
+
+- Support Noto emoji
+
 ## v0.2.0
 
 - Support Apple emoji
