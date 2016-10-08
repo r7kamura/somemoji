@@ -1,3 +1,9 @@
+## v0.3.1
+
+- Add Noto emoji extractor
+- Use down-cased file name for extracted emoji
+- Print progress on downloading emojis
+
 ## v0.3.0
 
 - Support Noto emoji
