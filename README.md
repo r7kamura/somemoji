@@ -36,3 +36,39 @@ gem install somemoji
 ## Documentation
 
 See API documentation at http://www.rubydoc.info/github/r7kamura/somemoji.
+
+## Use case
+
+### HTML::Pipeline integration
+
+```ruby
+class EmojiFilter < ::HTML::Pipeline::Filter
+  IGNORED_ANCESTOR_ELEMENT_NAMES = %w(
+    code
+    pre
+    tt
+  )
+
+  # @note Implementation for HTML::Pipeline::Filter
+  def call
+    doc.search(".//text()").each do |node|
+      unless has_ancestor?(node, IGNORED_ANCESTOR_ELEMENT_NAMES)
+        node.replace(
+          ::Somemoji.twemoji_emoji_collection.replace_code(node.to_html) do |emoji|
+            %W(
+              <img
+                alt="#{emoji.code}"
+                class="emoji"
+                height="20"
+                src="/images/emoji/#{emoji.base_path}.png"
+                title=":#{emoji.code}:"
+                width="20">
+            ).join(" ")
+          end
+        )
+      end
+    end
+    doc
+  end
+end
+```
