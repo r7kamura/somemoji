@@ -100,11 +100,13 @@ module Somemoji
       end
     end
 
-    # @return [String] a String representation of an emoji (if code points are defined on this emoji)
+    # @return [String, nil] a String representation from its code points
     def character
-      code_points.map do |code_point|
-        code_point.to_i(16)
-      end.pack("U*")
+      unless code_points.empty?
+        code_points.map do |code_point|
+          code_point.to_i(16)
+        end.pack("U*")
+      end
     end
   end
 end
