@@ -112,24 +112,24 @@ RSpec.describe Somemoji::EmojiCollection do
   describe "#replace_character" do
     subject do
       emoji_collection.replace_character("I ❤ Emoji") do |emoji|
-        %(<img alt="#{emoji.character}" class="emoji" src="/assets/emoji/#{emoji.base_path}.png">)
+        %(<img alt="#{emoji.character}" class="emoji" src="/images/emoji/#{emoji.base_path}.png">)
       end
     end
 
     it "replaces :emoji_code: in a given string with a given block" do
-      is_expected.to eq 'I <img alt="❤" class="emoji" src="/assets/emoji/unicode/2764.png"> Emoji'
+      is_expected.to eq 'I <img alt="❤" class="emoji" src="/images/emoji/unicode/2764.png"> Emoji'
     end
   end
 
   describe "#replace_code" do
     subject do
       emoji_collection.replace_code("I :heart: Emoji") do |emoji|
-        %(<img alt="#{emoji.character}" class="emoji" src="/assets/emoji/#{emoji.base_path}.png">)
+        %(<img alt="#{emoji.character}" class="emoji" src="/images/emoji/#{emoji.base_path}.png">)
       end
     end
 
     it "replaces emoji characters in a given string with a given block" do
-      is_expected.to eq 'I <img alt="❤" class="emoji" src="/assets/emoji/unicode/2764.png"> Emoji'
+      is_expected.to eq 'I <img alt="❤" class="emoji" src="/images/emoji/unicode/2764.png"> Emoji'
     end
   end
 end

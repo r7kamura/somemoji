@@ -103,9 +103,9 @@ module Somemoji
     # @return [String] a replaced result
     # @example
     #   Somemoji.emoji_collection.replace_character("I ❤ Emoji") do |emoji|
-    #     %(<img alt="#{emoji.character}" class="emoji" src="/assets/emoji/#{emoji.base_path}.png">)
+    #     %(<img alt="#{emoji.character}" class="emoji" src="/images/emoji/#{emoji.base_path}.png">)
     #   end
-    #   #=> 'I <img alt="❤" class="emoji" src="/assets/emoji/unicode/2764.png"> Emoji'
+    #   #=> 'I <img alt="❤" class="emoji" src="/images/emoji/unicode/2764.png"> Emoji'
     def replace_character(string, &block)
       string.gsub(character_pattern) do |character|
         block.call(find_by_character(character), character)
@@ -117,9 +117,9 @@ module Somemoji
     # @return [String] a replaced result
     # @example
     #   Somemoji.emoji_collection.replace_code("I :heart: Emoji") do |emoji|
-    #     %(<img alt="#{emoji.character}" class="emoji" src="/assets/emoji/#{emoji.base_path}.png">)
+    #     %(<img alt="#{emoji.character}" class="emoji" src="/images/emoji/#{emoji.base_path}.png">)
     #   end
-    #   #=> 'I <img alt="❤" class="emoji" src="/assets/emoji/unicode/2764.png"> Emoji'
+    #   #=> 'I <img alt="❤" class="emoji" src="/images/emoji/unicode/2764.png"> Emoji'
     def replace_code(string, &block)
       string.gsub(code_pattern) do |matched_string|
         block.call(find_by_code(::Regexp.last_match(1)), matched_string)

@@ -59,18 +59,18 @@ somemoji extract --provider=twemoji --destination=./images/emoji
 
 ```ruby
 Somemoji.emoji_one_emoji_collection.replace_code("I :heart: Emoji") do |emoji|
-  %(<img alt="#{emoji.character}" class="emoji" src="/assets/emoji/#{emoji.base_path}.png">)
+  %(<img alt="#{emoji.character}" class="emoji" src="/images/emoji/#{emoji.base_path}.png">)
 end
-#=> 'I <img alt="❤" class="emoji" src="/assets/emoji/unicode/2764.png"> Emoji'
+#=> 'I <img alt="❤" class="emoji" src="/images/emoji/unicode/2764.png"> Emoji'
 ```
 
 ### Replace emoji characters
 
 ```ruby
 Somemoji.noto_emoji_collection.replace_character("I 💗 Emoji") do |emoji|
-  %(<img alt="#{emoji.character}" class="emoji" src="/assets/emoji/#{emoji.base_path}.png">)
+  %(<img alt="#{emoji.character}" class="emoji" src="/images/emoji/#{emoji.base_path}.png">)
 end
-#=> 'I <img alt="💗" class="emoji" src="/assets/emoji/unicode/1f497.png"> Emoji'
+#=> 'I <img alt="💗" class="emoji" src="/images/emoji/unicode/1f497.png"> Emoji'
 ```
 
 ### Custom emojis
@@ -86,8 +86,8 @@ custom_emoji_collection.find_by_code("foo").class #=> Somemoji::Emoji
 custom_emoji_collection.find_by_code("bar").class #=> Somemoji::Emoji
 custom_emoji_collection.find_by_code("100").class #=> Somemoji::Emoji
 custom_emoji_collection.replace_code("I :bar: Emoji") do |emoji|
-  %(<img alt="#{emoji.character || emoji.code}" class="emoji" src="/assets/emoji/#{emoji.base_path}.png">)
-end #=> 'I <img alt="bar" class="emoji" src="/assets/emoji/bar.png"> Emoji'
+  %(<img alt="#{emoji.character || emoji.code}" class="emoji" src="/images/emoji/#{emoji.base_path}.png">)
+end #=> 'I <img alt="bar" class="emoji" src="/images/emoji/bar.png"> Emoji'
 ```
 
 ### HTML::Pipeline integration
