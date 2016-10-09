@@ -1,3 +1,7 @@
+## v0.4.1
+
+- Add more available emojis on Noto emojis
+
 ## v0.4.0
 
 - Add `somemoji` executable to extract emoji images
