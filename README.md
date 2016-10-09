@@ -8,10 +8,10 @@ A grand unified emoji mapper for some emoji providers.
 
 ## Supported emoji
 
-- [Apple Emoji](https://support.apple.com/en-us/HT202332)
-- [EmojiOne](https://github.com/Ranks/emojione)
-- [Noto Emoji](https://github.com/googlei18n/noto-emoji)
-- [Twemoji](https://github.com/twitter/twemoji)
+- [Apple Emoji](https://support.apple.com/en-us/HT202332) (Licensed by Apple Inc.)
+- [EmojiOne](https://github.com/Ranks/emojione) (CC-BY 4.0)
+- [Noto Emoji](https://github.com/googlei18n/noto-emoji) (SIL Open Font License 1.1)
+- [Twemoji](https://github.com/twitter/twemoji) (CC-BY 4.0)
 
 ## Installation
 
