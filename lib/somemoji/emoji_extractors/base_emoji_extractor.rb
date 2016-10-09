@@ -20,7 +20,7 @@ module Somemoji
 
       private
 
-      def make_directory
+      def make_destination_directory
         ::FileUtils.mkdir_p(@destination)
       end
 

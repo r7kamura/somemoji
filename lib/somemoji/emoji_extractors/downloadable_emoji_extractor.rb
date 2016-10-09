@@ -6,7 +6,7 @@ module Somemoji
     class DownloadableEmojiExtractor < BaseEmojiExtractor
       # @note Implementation for Somemoji::EmojiExtractors::BaseEmojiExtractor
       def extract
-        make_directory
+        make_destination_directory
         emojis.each do |emoji|
           download(emoji)
           print emoji.character unless silence?
