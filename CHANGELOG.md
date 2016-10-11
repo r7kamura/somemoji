@@ -1,3 +1,7 @@
+## v0.4.2
+
+- Support slop both v3 and v4
+
 ## v0.4.1
 
 - Add more available emojis on Noto emojis
