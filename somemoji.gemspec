@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "gemoji", "3.0.0.rc1"
   spec.add_dependency "json"
-  spec.add_dependency "slop", ">= 4.0.0"
+  spec.add_dependency "slop"
   spec.add_development_dependency "bundler", "~> 1.13"
   spec.add_development_dependency "gemojione", "3.2.0"
   spec.add_development_dependency "rake", "~> 10.0"
