@@ -1,3 +1,7 @@
+## v0.4.5
+
+- Improve `Somemoji::EmojiCollection#search_by_code` so that it matches with aliases
+
 ## v0.4.4
 
 - Support `Somemoji::EmojiCollection#search_by_code`

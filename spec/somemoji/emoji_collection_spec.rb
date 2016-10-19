@@ -135,11 +135,37 @@ RSpec.describe Somemoji::EmojiCollection do
 
   describe "#search_by_code" do
     subject do
-      emoji_collection.search_by_code(/\Acus/)
+      emoji_collection.search_by_code(pattern)
     end
 
-    it "searches emojis that match with given pattern" do
-      expect(subject.map(&:code)).to eq %w(custard customs)
+    context "with pattern that matches with code" do
+      let(:pattern) do
+        /\Acus/
+      end
+
+      it "searches emojis that match with given pattern" do
+        expect(subject.map(&:code)).to eq %w(
+          custard
+          customs
+        )
+      end
+    end
+
+    context "with pattern that matches with alias" do
+      let(:pattern) do
+        /\A\+/
+      end
+
+      it "searches emojis that match with given pattern" do
+        expect(subject.map(&:code)).to eq %w(
+          thumbsup
+          thumbsup_tone1
+          thumbsup_tone2
+          thumbsup_tone3
+          thumbsup_tone4
+          thumbsup_tone5
+        )
+      end
     end
   end
 end

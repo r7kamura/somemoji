@@ -135,7 +135,9 @@ module Somemoji
     def search_by_code(pattern)
       self.class.new(
         select do |emoji|
-          pattern === emoji.code
+          pattern === emoji.code || emoji.aliases.any? do |alias_code|
+            pattern === alias_code
+          end
         end
       )
     end
