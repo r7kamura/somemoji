@@ -39,4 +39,14 @@ RSpec.describe Somemoji::Emoji do
       is_expected.to eq "\u{1f4af}"
     end
   end
+
+  describe "#to_hash" do
+    subject do
+      emoji.to_hash
+    end
+
+    it "returns a Hash" do
+      is_expected.to be_a ::Hash
+    end
+  end
 end

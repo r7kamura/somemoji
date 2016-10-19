@@ -108,5 +108,19 @@ module Somemoji
         end.pack("U*")
       end
     end
+
+    # @return [Hash{Symbol => Object}]
+    def to_hash
+      {
+        aliases: aliases,
+        ascii_arts: ascii_arts,
+        category: category,
+        code:code,
+        code_points: code_points,
+        code_points_alternates: code_points_alternates,
+        keywords: keywords,
+        name: name,
+      }
+    end
   end
 end

@@ -1,3 +1,7 @@
+## v0.4.3
+
+- Support `Somemoji::Emoji#to_hash`
+
 ## v0.4.2
 
 - Support slop both v3 and v4
