@@ -126,6 +126,20 @@ module Somemoji
       end
     end
 
+    # Searches emojis that match with given pattern
+    # @param pattern [Object]
+    # @return [Somemoji::EmojiCollection]
+    # @example
+    #   Somemoji.emoji_collection.search_by_code(/^cus/).map(&:code)
+    #   #=> ["custard", "customs"]
+    def search_by_code(pattern)
+      self.class.new(
+        select do |emoji|
+          pattern === emoji.code
+        end
+      )
+    end
+
     private
 
     # @return [Hash{String => Somemoji::Emoji}]

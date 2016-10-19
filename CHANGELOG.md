@@ -1,3 +1,7 @@
+## v0.4.4
+
+- Support `Somemoji::EmojiCollection#search_by_code`
+
 ## v0.4.3
 
 - Support `Somemoji::Emoji#to_hash`

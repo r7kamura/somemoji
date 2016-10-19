@@ -132,4 +132,14 @@ RSpec.describe Somemoji::EmojiCollection do
       is_expected.to eq 'I <img alt="❤" class="emoji" src="/images/emoji/unicode/2764.png"> Emoji'
     end
   end
+
+  describe "#search_by_code" do
+    subject do
+      emoji_collection.search_by_code(/\Acus/)
+    end
+
+    it "searches emojis that match with given pattern" do
+      expect(subject.map(&:code)).to eq %w(custard customs)
+    end
+  end
 end
