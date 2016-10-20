@@ -16,7 +16,7 @@ module Somemoji
 
       # @note Implementation for Somemoji::EmojiExtractors::DownloadableEmojiExtractor
       def emojis
-        ::Somemoji.emoji_one_emoji_collection.each
+        ::Somemoji.emoji_one_emoji_collection
       end
 
       # @note Implementation for Somemoji::EmojiExtractors::DownloadableEmojiExtractor
