@@ -1,3 +1,7 @@
+## v0.4.6
+
+- Fix twemoji extractor so that missing emojis are now downloadable
+
 ## v0.4.5
 
 - Improve `Somemoji::EmojiCollection#search_by_code` so that it matches with aliases
