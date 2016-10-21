@@ -21,7 +21,10 @@ module Somemoji
 
       # @note Implementation for Somemoji::EmojiExtractors::DownloadableEmojiExtractor
       def find_remote_emoji_path(emoji)
-        "/twitter/twemoji/v2.2.1/#{directory_name}/#{emoji.code_points.join('-').downcase}.#{extension}"
+        basenames = emoji.code_points.map do |code_point|
+          code_point.to_i(16).to_s(16)
+        end
+        "/twitter/twemoji/v2.2.1/#{directory_name}/#{basenames.join('-')}.#{extension}"
       end
 
       # @note Implementation for Somemoji::EmojiExtractors::DownloadableEmojiExtractor
