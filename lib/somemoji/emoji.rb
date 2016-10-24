@@ -115,7 +115,7 @@ module Somemoji
         aliases: aliases,
         ascii_arts: ascii_arts,
         category: category,
-        code:code,
+        code: code,
         code_points: code_points,
         code_points_alternates: code_points_alternates,
         keywords: keywords,
