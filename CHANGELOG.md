@@ -1,3 +1,9 @@
+## v0.5.0
+
+- Include U+200D and U+FE0F into code points
+- Canonicalize extracted image file name
+- Fix missing emoji images on Twemoji extractor
+
 ## v0.4.6
 
 - Fix twemoji extractor so that missing emojis are now downloadable
