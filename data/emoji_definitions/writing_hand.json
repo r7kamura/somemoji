@@ -4,13 +4,8 @@
   "category": "people",
   "code": "writing_hand",
   "code_points": [
-    "270D"
-  ],
-  "code_points_alternates": [
-    [
-      "270D",
-      "FE0F"
-    ]
+    "270D",
+    "FE0F"
   ],
   "keywords": [
     "body",

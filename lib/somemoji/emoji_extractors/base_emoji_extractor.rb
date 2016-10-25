@@ -1,5 +1,3 @@
-require "fileutils"
-
 module Somemoji
   module EmojiExtractors
     class BaseEmojiExtractor
@@ -19,10 +17,6 @@ module Somemoji
       end
 
       private
-
-      def make_destination_directory
-        ::FileUtils.mkdir_p(@destination)
-      end
 
       def silence?
         !!@silence

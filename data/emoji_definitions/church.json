@@ -4,13 +4,8 @@
   "category": "travel",
   "code": "church",
   "code_points": [
-    "26EA"
-  ],
-  "code_points_alternates": [
-    [
-      "26EA",
-      "FE0F"
-    ]
+    "26EA",
+    "FE0F"
   ],
   "keywords": [
     "building",

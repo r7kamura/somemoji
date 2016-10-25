@@ -4,13 +4,8 @@
   "category": "nature",
   "code": "sunny",
   "code_points": [
-    "2600"
-  ],
-  "code_points_alternates": [
-    [
-      "2600",
-      "FE0F"
-    ]
+    "2600",
+    "FE0F"
   ],
   "keywords": [
     "brightness",

@@ -5,14 +5,8 @@
   "code": "hash",
   "code_points": [
     "0023",
+    "FE0F",
     "20E3"
-  ],
-  "code_points_alternates": [
-    [
-      "0023",
-      "FE0F",
-      "20E3"
-    ]
   ],
   "keywords": [
     "number",

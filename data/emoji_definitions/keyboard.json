@@ -4,13 +4,8 @@
   "category": "objects",
   "code": "keyboard",
   "code_points": [
-    "2328"
-  ],
-  "code_points_alternates": [
-    [
-      "2328",
-      "FE0F"
-    ]
+    "2328",
+    "FE0F"
   ],
   "keywords": [
     "electronics",

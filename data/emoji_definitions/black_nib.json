@@ -4,13 +4,8 @@
   "category": "objects",
   "code": "black_nib",
   "code_points": [
-    "2712"
-  ],
-  "code_points_alternates": [
-    [
-      "2712",
-      "FE0F"
-    ]
+    "2712",
+    "FE0F"
   ],
   "keywords": [
     "object",

@@ -4,13 +4,8 @@
   "category": "symbols",
   "code": "virgo",
   "code_points": [
-    "264D"
-  ],
-  "code_points_alternates": [
-    [
-      "264D",
-      "FE0F"
-    ]
+    "264D",
+    "FE0F"
   ],
   "keywords": [
     "astrology",

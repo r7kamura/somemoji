@@ -7,14 +7,8 @@
   "code": "asterisk",
   "code_points": [
     "002A",
+    "FE0F",
     "20E3"
-  ],
-  "code_points_alternates": [
-    [
-      "002A",
-      "FE0F",
-      "20E3"
-    ]
   ],
   "keywords": [
     "*",

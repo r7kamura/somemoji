@@ -4,13 +4,8 @@
   "category": "symbols",
   "code": "arrow_left",
   "code_points": [
-    "2B05"
-  ],
-  "code_points_alternates": [
-    [
-      "2B05",
-      "FE0F"
-    ]
+    "2B05",
+    "FE0F"
   ],
   "keywords": [
     "arrow",

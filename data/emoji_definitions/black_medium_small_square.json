@@ -4,13 +4,8 @@
   "category": "symbols",
   "code": "black_medium_small_square",
   "code_points": [
-    "25FE"
-  ],
-  "code_points_alternates": [
-    [
-      "25FE",
-      "FE0F"
-    ]
+    "25FE",
+    "FE0F"
   ],
   "keywords": [
     "shapes",

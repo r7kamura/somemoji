@@ -4,13 +4,8 @@
   "category": "objects",
   "code": "telephone",
   "code_points": [
-    "260E"
-  ],
-  "code_points_alternates": [
-    [
-      "260E",
-      "FE0F"
-    ]
+    "260E",
+    "FE0F"
   ],
   "keywords": [
     "communication",

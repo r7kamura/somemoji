@@ -4,13 +4,8 @@
   "category": "objects",
   "code": "pencil2",
   "code_points": [
-    "270F"
-  ],
-  "code_points_alternates": [
-    [
-      "270F",
-      "FE0F"
-    ]
+    "270F",
+    "FE0F"
   ],
   "keywords": [
     "object",

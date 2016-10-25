@@ -6,13 +6,8 @@
   "category": "symbols",
   "code": "heart",
   "code_points": [
-    "2764"
-  ],
-  "code_points_alternates": [
-    [
-      "2764",
-      "FE0F"
-    ]
+    "2764",
+    "FE0F"
   ],
   "keywords": [
     "black",

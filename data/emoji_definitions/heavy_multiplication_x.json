@@ -4,13 +4,8 @@
   "category": "symbols",
   "code": "heavy_multiplication_x",
   "code_points": [
-    "2716"
-  ],
-  "code_points_alternates": [
-    [
-      "2716",
-      "FE0F"
-    ]
+    "2716",
+    "FE0F"
   ],
   "keywords": [
     "calculation",

@@ -63,7 +63,7 @@ RSpec.describe Somemoji::EmojiCollection do
     end
 
     let(:character) do
-      "\u{2934}"
+      "\u{2934}\u{FE0F}"
     end
 
     context "with emoji character" do
@@ -111,13 +111,13 @@ RSpec.describe Somemoji::EmojiCollection do
 
   describe "#replace_character" do
     subject do
-      emoji_collection.replace_character("I ❤ Emoji") do |emoji|
+      emoji_collection.replace_character("I \u{2764}\u{FE0F} Emoji") do |emoji|
         %(<img alt="#{emoji.character}" class="emoji" src="/images/emoji/#{emoji.base_path}.png">)
       end
     end
 
     it "replaces :emoji_code: in a given string with a given block" do
-      is_expected.to eq 'I <img alt="❤" class="emoji" src="/images/emoji/unicode/2764.png"> Emoji'
+      is_expected.to eq %(I <img alt="\u{2764}\u{FE0F}" class="emoji" src="/images/emoji/unicode/2764-fe0f.png"> Emoji)
     end
   end
 
@@ -129,7 +129,7 @@ RSpec.describe Somemoji::EmojiCollection do
     end
 
     it "replaces emoji characters in a given string with a given block" do
-      is_expected.to eq 'I <img alt="❤" class="emoji" src="/images/emoji/unicode/2764.png"> Emoji'
+      is_expected.to eq %(I <img alt="\u{2764}\u{FE0F}" class="emoji" src="/images/emoji/unicode/2764-fe0f.png"> Emoji)
     end
   end
 

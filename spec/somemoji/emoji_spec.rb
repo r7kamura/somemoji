@@ -8,7 +8,6 @@ RSpec.describe Somemoji::Emoji do
       code_points: [
         "1F4AF"
       ],
-      code_points_alternates: [],
       keywords: [
         "100",
         "a",
