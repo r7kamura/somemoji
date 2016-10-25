@@ -4,13 +4,8 @@
   "category": "symbols",
   "code": "arrow_right_hook",
   "code_points": [
-    "21AA"
-  ],
-  "code_points_alternates": [
-    [
-      "21AA",
-      "FE0F"
-    ]
+    "21AA",
+    "FE0F"
   ],
   "keywords": [
     "arrow",

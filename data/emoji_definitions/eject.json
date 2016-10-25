@@ -6,13 +6,8 @@
   "category": "symbols",
   "code": "eject",
   "code_points": [
-    "23CF"
-  ],
-  "code_points_alternates": [
-    [
-      "23CF",
-      "FE0F"
-    ]
+    "23CF",
+    "FE0F"
   ],
   "keywords": [],
   "name": "eject symbol"

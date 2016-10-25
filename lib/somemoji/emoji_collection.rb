@@ -148,9 +148,6 @@ module Somemoji
     def index_by_character
       @index_by_character ||= each_with_object({}) do |emoji, hash|
         hash[emoji.character] = emoji
-        emoji.alternate_characters.each do |alternate_character|
-          hash[alternate_character] = emoji
-        end
       end
     end
 

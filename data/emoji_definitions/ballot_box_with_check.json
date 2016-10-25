@@ -4,13 +4,8 @@
   "category": "symbols",
   "code": "ballot_box_with_check",
   "code_points": [
-    "2611"
-  ],
-  "code_points_alternates": [
-    [
-      "2611",
-      "FE0F"
-    ]
+    "2611",
+    "FE0F"
   ],
   "keywords": [
     "agree",

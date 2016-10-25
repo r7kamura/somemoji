@@ -4,13 +4,8 @@
   "category": "symbols",
   "code": "scorpius",
   "code_points": [
-    "264F"
-  ],
-  "code_points_alternates": [
-    [
-      "264F",
-      "FE0F"
-    ]
+    "264F",
+    "FE0F"
   ],
   "keywords": [
     "astrology",

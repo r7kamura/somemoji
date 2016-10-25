@@ -4,13 +4,8 @@
   "category": "objects",
   "code": "scissors",
   "code_points": [
-    "2702"
-  ],
-  "code_points_alternates": [
-    [
-      "2702",
-      "FE0F"
-    ]
+    "2702",
+    "FE0F"
   ],
   "keywords": [
     "cut",

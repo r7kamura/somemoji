@@ -4,13 +4,8 @@
   "category": "symbols",
   "code": "recycle",
   "code_points": [
-    "267B"
-  ],
-  "code_points_alternates": [
-    [
-      "267B",
-      "FE0F"
-    ]
+    "267B",
+    "FE0F"
   ],
   "keywords": [
     "arrow",

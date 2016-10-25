@@ -4,13 +4,8 @@
   "category": "people",
   "code": "v",
   "code_points": [
-    "270C"
-  ],
-  "code_points_alternates": [
-    [
-      "270C",
-      "FE0F"
-    ]
+    "270C",
+    "FE0F"
   ],
   "keywords": [
     "body",

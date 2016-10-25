@@ -5,14 +5,8 @@
   "code": "nine",
   "code_points": [
     "0039",
+    "FE0F",
     "20E3"
-  ],
-  "code_points_alternates": [
-    [
-      "0039",
-      "FE0F",
-      "20E3"
-    ]
   ],
   "keywords": [
     "9",

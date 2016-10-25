@@ -4,13 +4,8 @@
   "category": "symbols",
   "code": "arrow_heading_up",
   "code_points": [
-    "2934"
-  ],
-  "code_points_alternates": [
-    [
-      "2934",
-      "FE0F"
-    ]
+    "2934",
+    "FE0F"
   ],
   "keywords": [
     "arrow",

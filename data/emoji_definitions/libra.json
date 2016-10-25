@@ -4,13 +4,8 @@
   "category": "symbols",
   "code": "libra",
   "code_points": [
-    "264E"
-  ],
-  "code_points_alternates": [
-    [
-      "264E",
-      "FE0F"
-    ]
+    "264E",
+    "FE0F"
   ],
   "keywords": [
     "astrology",

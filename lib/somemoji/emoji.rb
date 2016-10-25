@@ -15,9 +15,6 @@ module Somemoji
     # @return [Array<String>, nil]
     attr_reader :code_points
 
-    # @return [Array<Array<String>>]
-    attr_reader :code_points_alternates
-
     # @return [Array<String>, nil]
     attr_reader :keywords
 
@@ -27,7 +24,6 @@ module Somemoji
     # @param aliases [Array<String>, nil]
     # @param ascii_arts [Array<String>, nil]
     # @param category [String, nil]
-    # @param code_points_alternates [Array<Array<String>>, nil]
     # @param code_points [Array<String>, nil]
     # @param code [String] a unique emoji code (required)
     # @param keywords [Array<String>, nil]
@@ -41,7 +37,6 @@ module Somemoji
     #     code_points: [
     #       "1F4AF"
     #     ],
-    #     code_points_alternates: [],
     #     keywords: [
     #       "100",
     #       "a",
@@ -68,7 +63,6 @@ module Somemoji
       category: nil,
       code:,
       code_points: nil,
-      code_points_alternates: nil,
       keywords: nil,
       name: nil
     )
@@ -77,17 +71,14 @@ module Somemoji
       @category = category
       @code = code
       @code_points = code_points || []
-      @code_points_alternates = code_points_alternates || []
       @keywords = keywords || []
       @name = name
     end
 
     # @return [Array<String>]
-    def alternate_characters
-      code_points_alternates.map do |code_points_alternate|
-        code_points_alternate.map do |code_point|
-          code_point.to_i(16)
-        end.pack("U*")
+    def abbreviated_code_points
+      code_points.reject do |code_point|
+        %w(200D FE0F).include?(code_point)
       end
     end
 
@@ -117,7 +108,6 @@ module Somemoji
         category: category,
         code: code,
         code_points: code_points,
-        code_points_alternates: code_points_alternates,
         keywords: keywords,
         name: name,
       }

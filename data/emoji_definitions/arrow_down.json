@@ -4,13 +4,8 @@
   "category": "symbols",
   "code": "arrow_down",
   "code_points": [
-    "2B07"
-  ],
-  "code_points_alternates": [
-    [
-      "2B07",
-      "FE0F"
-    ]
+    "2B07",
+    "FE0F"
   ],
   "keywords": [
     "arrow",

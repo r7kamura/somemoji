@@ -4,13 +4,8 @@
   "category": "symbols",
   "code": "arrow_right",
   "code_points": [
-    "27A1"
-  ],
-  "code_points_alternates": [
-    [
-      "27A1",
-      "FE0F"
-    ]
+    "27A1",
+    "FE0F"
   ],
   "keywords": [
     "arrow",

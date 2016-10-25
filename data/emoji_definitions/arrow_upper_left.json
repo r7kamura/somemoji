@@ -4,13 +4,8 @@
   "category": "symbols",
   "code": "arrow_upper_left",
   "code_points": [
-    "2196"
-  ],
-  "code_points_alternates": [
-    [
-      "2196",
-      "FE0F"
-    ]
+    "2196",
+    "FE0F"
   ],
   "keywords": [
     "arrow",

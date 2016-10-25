@@ -4,13 +4,8 @@
   "category": "nature",
   "code": "partly_sunny",
   "code_points": [
-    "26C5"
-  ],
-  "code_points_alternates": [
-    [
-      "26C5",
-      "FE0F"
-    ]
+    "26C5",
+    "FE0F"
   ],
   "keywords": [
     "cloud",

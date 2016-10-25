@@ -4,13 +4,8 @@
   "category": "symbols",
   "code": "sagittarius",
   "code_points": [
-    "2650"
-  ],
-  "code_points_alternates": [
-    [
-      "2650",
-      "FE0F"
-    ]
+    "2650",
+    "FE0F"
   ],
   "keywords": [
     "archer",

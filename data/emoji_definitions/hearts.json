@@ -4,13 +4,8 @@
   "category": "symbols",
   "code": "hearts",
   "code_points": [
-    "2665"
-  ],
-  "code_points_alternates": [
-    [
-      "2665",
-      "FE0F"
-    ]
+    "2665",
+    "FE0F"
   ],
   "keywords": [
     "cards",

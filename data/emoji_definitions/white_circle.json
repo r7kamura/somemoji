@@ -4,13 +4,8 @@
   "category": "symbols",
   "code": "white_circle",
   "code_points": [
-    "26AA"
-  ],
-  "code_points_alternates": [
-    [
-      "26AA",
-      "FE0F"
-    ]
+    "26AA",
+    "FE0F"
   ],
   "keywords": [
     "circle",

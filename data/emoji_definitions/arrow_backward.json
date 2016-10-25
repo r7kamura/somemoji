@@ -4,13 +4,8 @@
   "category": "symbols",
   "code": "arrow_backward",
   "code_points": [
-    "25C0"
-  ],
-  "code_points_alternates": [
-    [
-      "25C0",
-      "FE0F"
-    ]
+    "25C0",
+    "FE0F"
   ],
   "keywords": [
     "arrow",
