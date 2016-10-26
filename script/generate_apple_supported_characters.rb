@@ -1,5 +1,6 @@
 require "emoji/extractor"
 require "fileutils"
+require "json"
 require "pathname"
 require "somemoji"
 require "tmpdir"
@@ -12,10 +13,14 @@ Emoji::Extractor.new(64, temporary_directory_path).extract!
 
 table = Somemoji.emoji_collection.each_with_object({}) do |emoji, object|
   object[emoji.abbreviated_code_points] = emoji
+  object[emoji.code_points] = emoji
 end
 
 emojis = Dir.glob("#{unicode_directory_path}/*.png").map do |image_path|
-  table[::File.basename(image_path, ".png").upcase.split("-")]
+  code_points = ::File.basename(image_path, ".png").split("-").map do |code_point|
+    ("%04X" % code_point.to_i(16)).upcase
+  end
+  table[code_points]
 end.compact
 
 FileUtils.rm_rf(unicode_directory_path)
