@@ -14,7 +14,9 @@ index.each do |shortname, data|
       ascii_arts: data["aliases_ascii"].sort,
       category: data["category"],
       code: shortname,
-      code_points: (data["unicode_alternates"].any? ? data["unicode_alternates"].first : data["unicode"]).split("-"),
+      code_points: (data["unicode_alternates"].any? ? data["unicode_alternates"].first : data["unicode"]).split("-").map do |code_point|
+        code_point.to_i(16).to_s(16)
+      end,
       keywords: data["keywords"].sort,
       name: data["name"],
     ).gsub("[\n\n  ]", "[]"),

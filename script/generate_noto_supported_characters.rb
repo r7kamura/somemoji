@@ -1594,7 +1594,7 @@ end
 
 emojis = image_paths.map do |image_path|
   code_points = ::File.basename(image_path, ".png").gsub("emoji_u", "").split("_").map do |code_point|
-    ("%04X" % code_point.to_i(16)).upcase
+    code_point.to_i(16).to_s(16)
   end
   table[code_points]
 end.compact

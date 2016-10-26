@@ -87,7 +87,7 @@ module Somemoji
       if code_points.empty?
         code
       else
-        "unicode/#{code_points.join('-').downcase}"
+        "unicode/#{code_points.join('-')}"
       end
     end
 

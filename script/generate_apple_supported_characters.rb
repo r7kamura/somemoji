@@ -18,7 +18,7 @@ end
 
 emojis = Dir.glob("#{unicode_directory_path}/*.png").map do |image_path|
   code_points = ::File.basename(image_path, ".png").split("-").map do |code_point|
-    ("%04X" % code_point.to_i(16)).upcase
+    code_point.to_i(16).to_s(16)
   end
   table[code_points]
 end.compact

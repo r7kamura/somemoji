@@ -21,7 +21,7 @@ module Somemoji
 
       # @note Implementation for Somemoji::EmojiExtractors::DownloadableEmojiExtractor
       def find_remote_emoji_path(emoji)
-        "/googlei18n/noto-emoji/fcc3cfed6f7bad76ed7bb2012b3ac5232ced7a96/#{directory_name}/emoji_u#{emoji.code_points.join('_').downcase}.#{extension}"
+        "/googlei18n/noto-emoji/fcc3cfed6f7bad76ed7bb2012b3ac5232ced7a96/#{directory_name}/emoji_u#{emoji.code_points.join('_')}.#{extension}"
       end
 
       # @note Implementation for Somemoji::EmojiExtractors::DownloadableEmojiExtractor

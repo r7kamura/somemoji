@@ -11,7 +11,7 @@ module Somemoji
       def extract
         extract_images_into_temporary_directory
         extracted_image_paths.map do |image_path|
-          if emoji = emoji_table[::File.basename(image_path, ".png").upcase.split("-")]
+          if emoji = emoji_table[::File.basename(image_path, ".png").split("-")]
             ::FileUtils.mkdir_p("#{@destination}/unicode")
             ::FileUtils.move(
               image_path,

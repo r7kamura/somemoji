@@ -12,7 +12,7 @@ end
 
 emojis = ::Twemoji.invert_codes.keys.map do |code_points_string|
   code_points = code_points_string.split("-").map do |code_point|
-    ("%04X" % code_point.to_i(16)).upcase
+    code_point.to_i(16).to_s(16)
   end
   table[code_points]
 end.compact
