@@ -1,3 +1,9 @@
+## v0.6.0
+
+- Change extracted image file name pattern
+- Use downcased and non-zero-padded code point
+- Support non-canonical twemoji image file name pattern
+
 ## v0.5.0
 
 - Include U+200D and U+FE0F into code points
