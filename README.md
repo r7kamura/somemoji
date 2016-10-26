@@ -12,8 +12,8 @@ A grand unified emoji mapper for some emoji providers.
 |---|---|---|
 |[Apple Emoji](https://support.apple.com/en-us/HT202332)|1285 emojis|Licensed by Apple Inc.|
 |[EmojiOne](https://github.com/Ranks/emojione)|1794 emojis|CC-BY 4.0|
-|[Noto Emoji](https://github.com/googlei18n/noto-emoji)|1428 emojis|SIL Open Font License 1.1|
-|[Twemoji](https://github.com/twitter/twemoji)|1513 emojis|CC-BY 4.0|
+|[Noto Emoji](https://github.com/googlei18n/noto-emoji)|1541 emojis|SIL Open Font License 1.1|
+|[Twemoji](https://github.com/twitter/twemoji)|1626 emojis|CC-BY 4.0|
 
 ## Installation
 

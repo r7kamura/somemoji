@@ -52,7 +52,7 @@ module Somemoji
 
     # @return [Somemoji::EmojiCollection] an emoji collection including Noto emojis
     # @example
-    #   Somemoji.noto_emoji_collection.count #=> 1428
+    #   Somemoji.noto_emoji_collection.count #=> 1541
     def noto_emoji_collection
       @noto_emoji_collection ||= ::Somemoji::EmojiCollection.new(noto_emojis)
     end
@@ -64,7 +64,7 @@ module Somemoji
 
     # @return [Somemoji::EmojiCollection] an emoji collection including Twemoji emojis
     # @example
-    #   Somemoji.twemoji_emoji_collection.count #=> 1513
+    #   Somemoji.twemoji_emoji_collection.count #=> 1626
     def twemoji_emoji_collection
       @twemoji_emoji_collection ||= ::Somemoji::EmojiCollection.new(twemoji_emojis)
     end
