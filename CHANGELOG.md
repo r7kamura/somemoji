@@ -1,3 +1,7 @@
+## v0.6.1
+
+- Add some aliases for gemoji
+
 ## v0.6.0
 
 - Change extracted image file name pattern
