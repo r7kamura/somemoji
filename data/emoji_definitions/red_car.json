@@ -1,5 +1,7 @@
 {
-  "aliases": [],
+  "aliases": [
+    "car"
+  ],
   "ascii_arts": [],
   "category": "travel",
   "code": "red_car",
