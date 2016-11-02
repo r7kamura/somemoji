@@ -1,5 +1,7 @@
 {
-  "aliases": [],
+  "aliases": [
+    "keycap_ten"
+  ],
   "ascii_arts": [],
   "category": "symbols",
   "code": "ten",
