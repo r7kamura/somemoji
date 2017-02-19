@@ -38,6 +38,7 @@ gem install somemoji
 ## Command line tool
 
 `somemoji` executable is bundled to extract images from each emoji provider.
+**※provider apple on macOS Sierra or later**.
 
 ```
 $ somemoji --help
