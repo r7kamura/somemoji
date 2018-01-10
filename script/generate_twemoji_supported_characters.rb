@@ -17,7 +17,6 @@ emojis = ::Twemoji.invert_codes.keys.map do |code_points_string|
   table[code_points]
 end.compact
 
-File.write(
-  Somemoji.twemoji_supported_characters_path,
-  JSON.pretty_generate(emojis.map(&:character).uniq.sort),
-)
+open(Somemoji.twemoji_supported_characters_path, "w") do |file|
+  file.puts(JSON.pretty_generate(emojis.map(&:character).uniq.sort))
+end

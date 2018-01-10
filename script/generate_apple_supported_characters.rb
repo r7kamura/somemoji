@@ -25,7 +25,6 @@ end.compact
 
 FileUtils.rm_rf(unicode_directory_path)
 
-File.write(
-  Somemoji.apple_supported_characters_path,
-  JSON.pretty_generate(emojis.map(&:character).uniq.sort),
-)
+open(Somemoji.apple_supported_characters_path, "w") do |file|
+  file.puts(JSON.pretty_generate(emojis.map(&:character).uniq.sort))
+end
