@@ -1,3 +1,7 @@
+## v0.7.0
+
+- Updated emoji sets.
+
 ## v0.6.1
 
 - Add some aliases for gemoji
