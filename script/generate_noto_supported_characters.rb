@@ -1599,7 +1599,6 @@ emojis = image_paths.map do |image_path|
   table[code_points]
 end.compact
 
-File.write(
-  Somemoji.noto_supported_characters_path,
-  JSON.pretty_generate(emojis.map(&:character).uniq.sort),
-)
+open(Somemoji.noto_supported_characters_path, "w") do |file|
+  file.puts(JSON.pretty_generate(emojis.map(&:character).uniq.sort))
+end
