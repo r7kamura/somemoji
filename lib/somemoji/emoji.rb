@@ -78,7 +78,7 @@ module Somemoji
     # @return [Array<String>]
     def abbreviated_code_points
       code_points.reject do |code_point|
-        %w(200D FE0F).include?(code_point)
+        %w(200d fe0f).include?(code_point.downcase)
       end
     end
 

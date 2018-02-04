@@ -3,30 +3,33 @@ RSpec.describe Somemoji::Emoji do
     described_class.new(
       aliases: [],
       ascii_arts: [],
-      category: "symbols",
-      code: "100",
+      category: "nature",
+      code: "sunny",
       code_points: [
-        "1F4AF"
+        "2600",
+        "fe0f"
       ],
       keywords: [
-        "100",
-        "a",
-        "exam",
-        "numbers",
-        "parties",
-        "percent",
-        "perfect",
-        "plus",
-        "quiz",
-        "school",
-        "score",
-        "symbol",
-        "test",
-        "win",
-        "wow"
+        "brightness",
+        "day",
+        "hot",
+        "morning",
+        "sky",
+        "sun",
+        "weather"
       ],
-      name: "hundred points symbol"
+      name: "black sun with rays"
     )
+  end
+
+  describe "#abbreviated_code_points" do
+    subject do
+      emoji.abbreviated_code_points
+    end
+
+    it "returns abbreviated code points" do
+      is_expected.to eq ["2600"]
+    end
   end
 
   describe "#character" do
@@ -35,7 +38,7 @@ RSpec.describe Somemoji::Emoji do
     end
 
     it "returns a main character representation" do
-      is_expected.to eq "\u{1f4af}"
+      is_expected.to eq "\u{2600}\u{fe0f}"
     end
   end
 
