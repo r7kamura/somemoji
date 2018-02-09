@@ -1,3 +1,7 @@
+## v0.7.1
+
+- Fix Somemoji::Emoji#abbriveated_code_points
+
 ## v0.7.0
 
 - Updated emoji sets.
