@@ -20,15 +20,15 @@ Gem::Specification.new do |spec|
 
   spec.require_paths = ["lib"]
 
-  spec.required_ruby_version = ">= 2.1.0"
+  spec.required_ruby_version = ">= 3.3"
 
   spec.add_dependency "gemoji", "3.0.0"
   spec.add_dependency "json"
   spec.add_dependency "slop"
-  spec.add_development_dependency "bundler", "~> 1.13"
+  spec.add_development_dependency "bundler"
   spec.add_development_dependency "gemojione", "3.3.0"
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "3.5.0"
-  spec.add_development_dependency "twemoji", "3.1.4"
+  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "twemoji", "3.1.8"
   spec.add_development_dependency "yard"
 end
